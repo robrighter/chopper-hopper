@@ -1,0 +1,2 @@
+/Users/rob/development/non-mgit/chopper-hopper/Classes/ChopHop.m: In function '-[ChopHop chopperLand]':
+/Users/rob/development/non-mgit/chopper-hopper/Classes/ChopHop.m:109: warning: unused variable 'chopper'

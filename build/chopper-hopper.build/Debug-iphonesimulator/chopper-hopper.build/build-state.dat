@@ -1,0 +1,1252 @@
+Tchopper-hopper
+v7
+r0
+t290148243.783863
+cCheck dependencies
+cProcessInfoPlistFile /Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphonesimulator/chopper-hopper.app/Info.plist Resources/Info.plist
+cCpResource build/Debug-iphonesimulator/chopper-hopper.app/Default.png Resources/Default.png
+cCpResource build/Debug-iphonesimulator/chopper-hopper.app/fps_images.png Resources/fps_images.png
+cCpResource build/Debug-iphonesimulator/chopper-hopper.app/Icon.png Resources/Icon.png
+cCpResource build/Debug-iphonesimulator/chopper-hopper.app/chopper.png Resources/chopper.png
+cCpResource build/Debug-iphonesimulator/chopper-hopper.app/platform.png Resources/platform.png
+cCpResource build/Debug-iphonesimulator/chopper-hopper.app/background.png Resources/background.png
+cCpResource build/Debug-iphonesimulator/chopper-hopper.app/startbutton1.png Resources/startbutton1.png
+cCpResource build/Debug-iphonesimulator/chopper-hopper.app/startbutton2.png Resources/startbutton2.png
+cCpResource build/Debug-iphonesimulator/chopper-hopper.app/splash.png Resources/splash.png
+cCpResource build/Debug-iphonesimulator/chopper-hopper.app/water.png Resources/water.png
+cProcessPCH /var/folders/1u/1uRmh48UGL0F0hu2+Zztu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/chopper_hopper_Prefix-bzakrwdwevugmsbnebuwcmtxytfy/chopper_hopper_Prefix.pch.gch chopper_hopper_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/chopper-hopper.build/Debug-iphonesimulator/chopper-hopper.build/Objects-normal/i386/main.o /Users/rob/development/non-mgit/chopper-hopper/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/chopper-hopper.build/Debug-iphonesimulator/chopper-hopper.build/Objects-normal/i386/chopper_hopperAppDelegate.o /Users/rob/development/non-mgit/chopper-hopper/Classes/chopper_hopperAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/chopper-hopper.build/Debug-iphonesimulator/chopper-hopper.build/Objects-normal/i386/ChopHop.o /Users/rob/development/non-mgit/chopper-hopper/Classes/ChopHop.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/chopper-hopper.build/Debug-iphonesimulator/chopper-hopper.build/Objects-normal/i386/Platform.o /Users/rob/development/non-mgit/chopper-hopper/Classes/Platform.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/chopper-hopper.build/Debug-iphonesimulator/chopper-hopper.build/Objects-normal/i386/Chopper.o /Users/rob/development/non-mgit/chopper-hopper/Classes/Chopper.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphonesimulator/chopper-hopper.app/chopper-hopper normal i386
+cGenerateDSYMFile /Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphonesimulator/chopper-hopper.app.dSYM /Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphonesimulator/chopper-hopper.app/chopper-hopper
+cTouch /Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphonesimulator/chopper-hopper.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk
+c000000004A42E5F300000000000000EE
+t1245898227
+s238
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000004A0BB0320000000000010F60
+t1242279986
+s69472
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004A0DADCB00000000001816A0
+t1242410443
+s1578656
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004A0BAA26000000000026EE80
+t1242278438
+s2551424
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGGeometry.h
+c000000004A0BAA260000000000002384
+t1242278438
+s9092
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004A0BAB370000000000261F90
+t1242278711
+s2498448
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004A0BAB250000000000001355
+t1242278693
+s4949
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/OpenAL.framework/OpenAL
+c000000004A0BB034000000000001DAB0
+t1242279988
+s121520
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGL.h
+c000000004A0BAD67000000000000094F
+t1242279271
+s2383
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGLDrawable.h
+c000000004A0BAD670000000000000A61
+t1242279271
+s2657
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/gl.h
+c000000004A0BAD670000000000009369
+t1242279271
+s37737
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/glext.h
+c000000004A0BAD670000000000002576
+t1242279271
+s9590
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c000000004A0BAD70000000000001F0F0
+t1242279280
+s127216
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004A0BAE3400000000000E55E0
+t1242279476
+s939488
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004A0CBEBB000000000000075E
+t1242349243
+s1886
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004A0CBF5F0000000001434100
+t1242349407
+s21184768
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/usr/include/math.h
+c000000004748A10600000000000004B7
+t1195942150
+s1207
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/usr/include/objc/objc.h
+c000000004748F47C0000000000000A27
+t1195963516
+s2599
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/usr/include/stdlib.h
+c000000004748A1330000000000002A79
+t1195942195
+s10873
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/usr/include/string.h
+c000000004748A1330000000000001731
+t1195942195
+s5937
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/usr/include/sys/time.h
+c00000000476344C00000000000001E18
+t1197688000
+s7704
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/usr/lib/libz.dylib
+c00000000476CCCD10000000000006EE8
+t1198312657
+s28392
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk
+c000000004B69B45C00000000000000EE
+t1265218652
+s238
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000004B2B4DF500000000000120D0
+t1261129205
+s73936
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004B2B4D460000000000193960
+t1261129030
+s1653088
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004B2B4CC3000000000026EE30
+t1261128899
+s2551344
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGGeometry.h
+c000000004B2B4CC30000000000002384
+t1261128899
+s9092
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004B2B4DC8000000000027E880
+t1261129160
+s2615424
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004B2B4DAE0000000000001355
+t1261129134
+s4949
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/OpenAL.framework/OpenAL
+c000000004B2B4D63000000000001EEA0
+t1261129059
+s126624
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGL.h
+c000000004B2B5307000000000000094F
+t1261130503
+s2383
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGLDrawable.h
+c000000004B2B53070000000000000A61
+t1261130503
+s2657
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/gl.h
+c000000004B2B53070000000000009369
+t1261130503
+s37737
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/glext.h
+c000000004B2B53070000000000002A42
+t1261130503
+s10818
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c000000004B2B532D000000000001F8E0
+t1261130541
+s129248
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004B2B540C00000000000E5890
+t1261130764
+s940176
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004B2B61620000000000000788
+t1261134178
+s1928
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004B2B62B500000000016721E0
+t1261134517
+s23536096
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/usr/include/math.h
+c000000004748A10600000000000004B7
+t1195942150
+s1207
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/usr/include/objc/objc.h
+c000000004748F47C0000000000000A27
+t1195963516
+s2599
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/usr/include/stdlib.h
+c000000004748A1330000000000002A79
+t1195942195
+s10873
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/usr/include/string.h
+c000000004748A1330000000000001731
+t1195942195
+s5937
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/usr/include/sys/time.h
+c00000000476344C00000000000001E18
+t1197688000
+s7704
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/usr/lib/libz.dylib
+c00000000476CCCD10000000000006EE8
+t1198312657
+s28392
+
+N/Users/rob/development/non-mgit/chopper-hopper/Classes/ChopHop.h
+c000000004B9B181200000000000000A4
+t1268455442
+s164
+i"cocos2d.h"
+i"Chopper.h"
+
+N/Users/rob/development/non-mgit/chopper-hopper/Classes/ChopHop.m
+c000000004B9B181200000000000010E6
+t1268455442
+s4326
+i"ChopHop.h"
+i"Platform.h"
+i"Chopper.h"
+
+N/Users/rob/development/non-mgit/chopper-hopper/Classes/Chopper.h
+c000000004B9B149B000000000000016F
+t1268454555
+s367
+i"cocos2d.h"
+
+N/Users/rob/development/non-mgit/chopper-hopper/Classes/Chopper.m
+c000000004B9B149C000000000000047C
+t1268454556
+s1148
+i"Chopper.h"
+
+N/Users/rob/development/non-mgit/chopper-hopper/Classes/HelloWorldScene.h
+c000000004B95005C00000000000000E5
+t1268056156
+s229
+i"cocos2d.h"
+
+N/Users/rob/development/non-mgit/chopper-hopper/Classes/HelloWorldScene.m
+c000000004B95005C0000000000000587
+t1268056156
+s1415
+i"HelloWorldScene.h"
+
+N/Users/rob/development/non-mgit/chopper-hopper/Classes/Platform.h
+c000000004B951CD000000000000001B1
+t1268063440
+s433
+i"cocos2d.h"
+
+N/Users/rob/development/non-mgit/chopper-hopper/Classes/Platform.m
+c000000004B99CC5600000000000005B9
+t1268370518
+s1465
+i"Platform.h"
+
+N/Users/rob/development/non-mgit/chopper-hopper/Classes/chopper_hopperAppDelegate.h
+c000000004B95005C0000000000000145
+t1268056156
+s325
+i<UIKit/UIKit.h>
+
+N/Users/rob/development/non-mgit/chopper-hopper/Classes/chopper_hopperAppDelegate.m
+c000000004B9501D60000000000000993
+t1268056534
+s2451
+i"chopper_hopperAppDelegate.h"
+i"cocos2d.h"
+i"ChopHop.h"
+
+N/Users/rob/development/non-mgit/chopper-hopper/Resources/Default.png
+c000000004B97E6BC000000000001630E
+t1268246204
+s90894
+
+N/Users/rob/development/non-mgit/chopper-hopper/Resources/Icon.png
+c000000004B95005C000000000000246F
+t1268056156
+s9327
+
+N/Users/rob/development/non-mgit/chopper-hopper/Resources/background.png
+c000000004B97E9720000000000016592
+t1268246898
+s91538
+
+N/Users/rob/development/non-mgit/chopper-hopper/Resources/chopper.png
+c000000004B97E79C0000000000000287
+t1268246428
+s647
+
+N/Users/rob/development/non-mgit/chopper-hopper/Resources/fps_images.png
+c000000004B95005C000000000000183B
+t1268056156
+s6203
+
+N/Users/rob/development/non-mgit/chopper-hopper/Resources/platform.png
+c000000004B97E89C0000000000000277
+t1268246684
+s631
+
+N/Users/rob/development/non-mgit/chopper-hopper/Resources/splash.png
+c000000004B97F2EA0000000000016236
+t1268249322
+s90678
+
+N/Users/rob/development/non-mgit/chopper-hopper/Resources/startbutton1.png
+c000000004B97EFD20000000000000627
+t1268248530
+s1575
+
+N/Users/rob/development/non-mgit/chopper-hopper/Resources/startbutton2.png
+c000000004B97F02700000000000005E1
+t1268248615
+s1505
+
+N/Users/rob/development/non-mgit/chopper-hopper/Resources/water.png
+c000000004B9A588D0000000000004581
+t1268406413
+s17793
+
+N/Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphonesimulator/chopper-hopper.app
+t1268455443
+s510
+
+N/Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphonesimulator/chopper-hopper.app.dSYM
+t1268455443
+s102
+
+N/Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphonesimulator/chopper-hopper.app/Default.png
+t1268246219
+s90894
+
+N/Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphonesimulator/chopper-hopper.app/Icon.png
+t1268056182
+s9327
+
+N/Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphonesimulator/chopper-hopper.app/Info.plist
+t1268056182
+s873
+
+N/Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphonesimulator/chopper-hopper.app/PkgInfo
+t1268056182
+s8
+
+N/Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphonesimulator/chopper-hopper.app/background.png
+t1268247199
+s91538
+
+N/Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphonesimulator/chopper-hopper.app/chopper-hopper
+t1268455443
+s954888
+
+N/Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphonesimulator/chopper-hopper.app/chopper.png
+t1268246437
+s647
+
+N/Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphonesimulator/chopper-hopper.app/fps_images.png
+t1268056182
+s6203
+
+N/Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphonesimulator/chopper-hopper.app/platform.png
+t1268246695
+s631
+
+N/Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphonesimulator/chopper-hopper.app/splash.png
+t1268249364
+s90678
+
+N/Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphonesimulator/chopper-hopper.app/startbutton1.png
+t1268248860
+s1575
+
+N/Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphonesimulator/chopper-hopper.app/startbutton2.png
+t1268248860
+s1505
+
+N/Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphonesimulator/chopper-hopper.app/water.png
+t1268406518
+s17793
+
+N/Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphonesimulator/libcocos2d libraries.a
+c000000004B950076000000000025BAD0
+t1268056182
+s2472656
+
+N/Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphonesimulator/chopper-hopper.build/Objects-normal/i386/ChopHop.o
+t1268455442
+s30916
+
+N/Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphonesimulator/chopper-hopper.build/Objects-normal/i386/Chopper.o
+t1268454559
+s16952
+
+N/Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphonesimulator/chopper-hopper.build/Objects-normal/i386/HelloWorldScene.o
+t1268056183
+s19920
+
+N/Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphonesimulator/chopper-hopper.build/Objects-normal/i386/Platform.o
+t1268454559
+s18780
+
+N/Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphonesimulator/chopper-hopper.build/Objects-normal/i386/chopper-hopper.LinkFileList
+c000000004B97F70E00000000000002EF
+t1268250382
+s751
+
+N/Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphonesimulator/chopper-hopper.build/Objects-normal/i386/chopper_hopperAppDelegate.o
+t1268455443
+s31312
+
+N/Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphonesimulator/chopper-hopper.build/Objects-normal/i386/main.o
+t1268454559
+s6088
+
+N/Users/rob/development/non-mgit/chopper-hopper/chopper_hopper_Prefix.pch
+c000000004B95005C00000000000000BF
+t1268056156
+s191
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/rob/development/non-mgit/chopper-hopper/libs/cocos2d/CCAction.h
+c000000004B95005C0000000000000E69
+t1268056156
+s3689
+i<UIKit/UIKit.h>
+i<sys/time.h>
+i"ccTypes.h"
+
+N/Users/rob/development/non-mgit/chopper-hopper/libs/cocos2d/CCActionManager.h
+c000000004B95005C0000000000000C0E
+t1268056156
+s3086
+i"CCAction.h"
+i"Support/ccArray.h"
+i"Support/ccHashSet.h"
+
+N/Users/rob/development/non-mgit/chopper-hopper/libs/cocos2d/CCAtlasNode.h
+c000000004B95005C00000000000008F4
+t1268056156
+s2292
+i"CCTextureAtlas.h"
+i"CCNode.h"
+i"CCProtocols.h"
+
+N/Users/rob/development/non-mgit/chopper-hopper/libs/cocos2d/CCBitmapFontAtlas.h
+c000000004B95005C0000000000001007
+t1268056156
+s4103
+i"CCAtlasNode.h"
+i"CCSpriteSheet.h"
+i"Support/ccHashSet.h"
+
+N/Users/rob/development/non-mgit/chopper-hopper/libs/cocos2d/CCCamera.h
+c000000004B95005C0000000000000815
+t1268056156
+s2069
+i"CCNode.h"
+
+N/Users/rob/development/non-mgit/chopper-hopper/libs/cocos2d/CCCameraAction.h
+c000000004B95005C0000000000000676
+t1268056156
+s1654
+i"CCIntervalAction.h"
+
+N/Users/rob/development/non-mgit/chopper-hopper/libs/cocos2d/CCCompatibility.h
+c000000004B95005C0000000000003A7C
+t1268056156
+s14972
+i<Foundation/Foundation.h>
+i"cocos2d.h"
+
+N/Users/rob/development/non-mgit/chopper-hopper/libs/cocos2d/CCConfiguration.h
+c000000004B95005C0000000000000425
+t1268056156
+s1061
+i<Foundation/Foundation.h>
+i<OpenGLES/ES1/gl.h>
+
+N/Users/rob/development/non-mgit/chopper-hopper/libs/cocos2d/CCDirector.h
+c000000004B95005C0000000000003176
+t1268056156
+s12662
+i"ccConfig.h"
+i"ccTypes.h"
+i"Support/EAGLView.h"
+
+N/Users/rob/development/non-mgit/chopper-hopper/libs/cocos2d/CCDrawingPrimitives.h
+c000000004B95005C00000000000007E2
+t1268056156
+s2018
+i<CoreGraphics/CGGeometry.h>
+i<objc/objc.h>
+
+N/Users/rob/development/non-mgit/chopper-hopper/libs/cocos2d/CCEaseAction.h
+c000000004B95005C0000000000001338
+t1268056156
+s4920
+i"CCIntervalAction.h"
+
+N/Users/rob/development/non-mgit/chopper-hopper/libs/cocos2d/CCGrabber.h
+c000000004B95005C00000000000002C0
+t1268056156
+s704
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+i<UIKit/UIKit.h>
+
+N/Users/rob/development/non-mgit/chopper-hopper/libs/cocos2d/CCGrid.h
+c000000004B95005C0000000000000B52
+t1268056156
+s2898
+i<UIKit/UIKit.h>
+i"CCNode.h"
+i"CCCamera.h"
+i"ccTypes.h"
+
+N/Users/rob/development/non-mgit/chopper-hopper/libs/cocos2d/CCGrid3DAction.h
+c000000004B95005C00000000000016A5
+t1268056156
+s5797
+i"CCGridAction.h"
+
+N/Users/rob/development/non-mgit/chopper-hopper/libs/cocos2d/CCGridAction.h
+c000000004B95005C000000000000116D
+t1268056156
+s4461
+i<UIKit/UIKit.h>
+i"CCIntervalAction.h"
+i"CCInstantAction.h"
+i"CCGrid.h"
+
+N/Users/rob/development/non-mgit/chopper-hopper/libs/cocos2d/CCInstantAction.h
+c000000004B95005C0000000000000A17
+t1268056156
+s2583
+i<UIKit/UIKit.h>
+i"CCAction.h"
+
+N/Users/rob/development/non-mgit/chopper-hopper/libs/cocos2d/CCIntervalAction.h
+c000000004B95005C0000000000002F70
+t1268056156
+s12144
+i"CCNode.h"
+i"CCAction.h"
+i"CCProtocols.h"
+i<sys/time.h>
+
+N/Users/rob/development/non-mgit/chopper-hopper/libs/cocos2d/CCLabel.h
+c000000004B95005D00000000000006E7
+t1268056157
+s1767
+i"CCTexture2D.h"
+i"CCSprite.h"
+
+N/Users/rob/development/non-mgit/chopper-hopper/libs/cocos2d/CCLabelAtlas.h
+c000000004B95005D0000000000000653
+t1268056157
+s1619
+i"CCAtlasNode.h"
+i"CCTextureAtlas.h"
+
+N/Users/rob/development/non-mgit/chopper-hopper/libs/cocos2d/CCLayer.h
+c000000004B95005D0000000000001063
+t1268056157
+s4195
+i<UIKit/UIKit.h>
+i"CCProtocols.h"
+i"CCNode.h"
+i"CCTouchDelegateProtocol.h"
+
+N/Users/rob/development/non-mgit/chopper-hopper/libs/cocos2d/CCMenu.h
+c000000004B95005D00000000000007B3
+t1268056157
+s1971
+i<UIKit/UIKit.h>
+i"CCMenuItem.h"
+i"CCLayer.h"
+
+N/Users/rob/development/non-mgit/chopper-hopper/libs/cocos2d/CCMenuItem.h
+c000000004B95005D00000000000020AA
+t1268056157
+s8362
+i"CCNode.h"
+i"CCProtocols.h"
+
+N/Users/rob/development/non-mgit/chopper-hopper/libs/cocos2d/CCMotionStreak.h
+c000000004B95005D00000000000007F1
+t1268056157
+s2033
+i<Foundation/Foundation.h>
+i"CCNode.h"
+i"CCRibbon.h"
+
+N/Users/rob/development/non-mgit/chopper-hopper/libs/cocos2d/CCNode.h
+c000000004B95005D000000000000348B
+t1268056157
+s13451
+i<OpenGLES/ES1/gl.h>
+i"CCAction.h"
+i"ccTypes.h"
+i"CCTexture2D.h"
+i"CCProtocols.h"
+
+N/Users/rob/development/non-mgit/chopper-hopper/libs/cocos2d/CCPVRTexture.h
+c000000004B95005D0000000000000CA5
+t1268056157
+s3237
+i<UIKit/UIKit.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+
+N/Users/rob/development/non-mgit/chopper-hopper/libs/cocos2d/CCPageTurn3DAction.h
+c000000004B95005D000000000000030A
+t1268056157
+s778
+i"CCGrid3DAction.h"
+
+N/Users/rob/development/non-mgit/chopper-hopper/libs/cocos2d/CCPageTurnTransition.h
+c000000004B95005D00000000000005BA
+t1268056157
+s1466
+i"CCTransition.h"
+
+N/Users/rob/development/non-mgit/chopper-hopper/libs/cocos2d/CCParallaxNode.h
+c000000004B95005D000000000000041B
+t1268056157
+s1051
+i"CCNode.h"
+i"Support/ccArray.h"
+
+N/Users/rob/development/non-mgit/chopper-hopper/libs/cocos2d/CCParticleExamples.h
+c000000004B95005D0000000000000591
+t1268056157
+s1425
+i"CCPointParticleSystem.h"
+i"CCQuadParticleSystem.h"
+
+N/Users/rob/development/non-mgit/chopper-hopper/libs/cocos2d/CCParticleSystem.h
+c000000004B95005D0000000000001F33
+t1268056157
+s7987
+i"CCProtocols.h"
+i"CCNode.h"
+i"ccTypes.h"
+
+N/Users/rob/development/non-mgit/chopper-hopper/libs/cocos2d/CCPointParticleSystem.h
+c000000004B95005D0000000000000393
+t1268056157
+s915
+i"CCParticleSystem.h"
+
+N/Users/rob/development/non-mgit/chopper-hopper/libs/cocos2d/CCProtocols.h
+c000000004B95005D0000000000000F5E
+t1268056157
+s3934
+i"ccTypes.h"
+i"CCTexture2D.h"
+
+N/Users/rob/development/non-mgit/chopper-hopper/libs/cocos2d/CCQuadParticleSystem.h
+c000000004B95005D000000000000045E
+t1268056157
+s1118
+i"CCParticleSystem.h"
+
+N/Users/rob/development/non-mgit/chopper-hopper/libs/cocos2d/CCRenderTexture.h
+c000000004B95005D0000000000000722
+t1268056157
+s1826
+i<Foundation/Foundation.h>
+i"CCNode.h"
+i"CCSprite.h"
+i"Support/OpenGL_Internal.h"
+
+N/Users/rob/development/non-mgit/chopper-hopper/libs/cocos2d/CCRibbon.h
+c000000004B95005D0000000000000C7D
+t1268056157
+s3197
+i"CCNode.h"
+i"CCTexture2D.h"
+i"CCProtocols.h"
+i<OpenGLES/ES1/gl.h>
+
+N/Users/rob/development/non-mgit/chopper-hopper/libs/cocos2d/CCScene.h
+c000000004B95005D0000000000000356
+t1268056157
+s854
+i<UIKit/UIKit.h>
+i"CCNode.h"
+
+N/Users/rob/development/non-mgit/chopper-hopper/libs/cocos2d/CCScheduler.h
+c000000004B95005D0000000000000A9F
+t1268056157
+s2719
+i<UIKit/UIKit.h>
+i"ccTypes.h"
+
+N/Users/rob/development/non-mgit/chopper-hopper/libs/cocos2d/CCSprite.h
+c000000004B95005D000000000000277D
+t1268056157
+s10109
+i"CCNode.h"
+i"CCProtocols.h"
+i"CCTextureAtlas.h"
+
+N/Users/rob/development/non-mgit/chopper-hopper/libs/cocos2d/CCSpriteFrame.h
+c000000004B95005D0000000000000E49
+t1268056157
+s3657
+i<Foundation/Foundation.h>
+i"CCNode.h"
+i"CCProtocols.h"
+
+N/Users/rob/development/non-mgit/chopper-hopper/libs/cocos2d/CCSpriteFrameCache.h
+c000000004B95005D0000000000000CC0
+t1268056157
+s3264
+i<Foundation/Foundation.h>
+i"CCSpriteFrame.h"
+i"CCTexture2D.h"
+
+N/Users/rob/development/non-mgit/chopper-hopper/libs/cocos2d/CCSpriteSheet.h
+c000000004B95005D0000000000000F8B
+t1268056157
+s3979
+i"CCNode.h"
+i"CCProtocols.h"
+i"CCTextureAtlas.h"
+i"ccMacros.h"
+i"Support/ccArray.h"
+
+N/Users/rob/development/non-mgit/chopper-hopper/libs/cocos2d/CCTMXLayer.h
+c000000004B95005D0000000000001003
+t1268056157
+s4099
+i"CCAtlasNode.h"
+i"CCSpriteSheet.h"
+i"Support/ccArray.h"
+
+N/Users/rob/development/non-mgit/chopper-hopper/libs/cocos2d/CCTMXObjectGroup.h
+c000000004B95005D00000000000005CC
+t1268056157
+s1484
+i"CCAtlasNode.h"
+i"CCSpriteSheet.h"
+i"Support/ccArray.h"
+
+N/Users/rob/development/non-mgit/chopper-hopper/libs/cocos2d/CCTMXTiledMap.h
+c000000004B95005D00000000000010FE
+t1268056157
+s4350
+i"CCAtlasNode.h"
+i"CCSpriteSheet.h"
+i"Support/ccArray.h"
+
+N/Users/rob/development/non-mgit/chopper-hopper/libs/cocos2d/CCTMXXMLParser.h
+c000000004B95005D000000000000116E
+t1268056157
+s4462
+
+N/Users/rob/development/non-mgit/chopper-hopper/libs/cocos2d/CCTexture2D.h
+c000000004B95005D00000000000022D1
+t1268056157
+s8913
+i<UIKit/UIKit.h>
+i<OpenGLES/ES1/gl.h>
+
+N/Users/rob/development/non-mgit/chopper-hopper/libs/cocos2d/CCTextureAtlas.h
+c000000004B95005D000000000000113D
+t1268056157
+s4413
+i"CCTexture2D.h"
+i"ccTypes.h"
+i"ccConfig.h"
+
+N/Users/rob/development/non-mgit/chopper-hopper/libs/cocos2d/CCTextureCache.h
+c000000004B95005D0000000000000EE7
+t1268056157
+s3815
+i<Foundation/Foundation.h>
+i"CCTexture2D.h"
+
+N/Users/rob/development/non-mgit/chopper-hopper/libs/cocos2d/CCTileMapAtlas.h
+c000000004B95005D000000000000085A
+t1268056157
+s2138
+i"CCTextureAtlas.h"
+i"CCAtlasNode.h"
+i"Support/TGAlib.h"
+
+N/Users/rob/development/non-mgit/chopper-hopper/libs/cocos2d/CCTiledGridAction.h
+c000000004B95005D00000000000016DC
+t1268056157
+s5852
+i"CCGridAction.h"
+
+N/Users/rob/development/non-mgit/chopper-hopper/libs/cocos2d/CCTouchDelegateProtocol.h
+c000000004B95005D000000000000078B
+t1268056157
+s1931
+i<UIKit/UIKit.h>
+
+N/Users/rob/development/non-mgit/chopper-hopper/libs/cocos2d/CCTouchDispatcher.h
+c000000004B95005D0000000000000C8C
+t1268056157
+s3212
+i"CCTouchDelegateProtocol.h"
+i"Support/EAGLView.h"
+
+N/Users/rob/development/non-mgit/chopper-hopper/libs/cocos2d/CCTouchHandler.h
+c000000004B95005D0000000000000886
+t1268056157
+s2182
+i"CCTouchDelegateProtocol.h"
+i"CCTouchDispatcher.h"
+
+N/Users/rob/development/non-mgit/chopper-hopper/libs/cocos2d/CCTransition.h
+c000000004B95005D0000000000001DF5
+t1268056157
+s7669
+i"CCScene.h"
+
+N/Users/rob/development/non-mgit/chopper-hopper/libs/cocos2d/Support/CCFileUtils.h
+c000000004B95005D0000000000000251
+t1268056157
+s593
+i<Foundation/Foundation.h>
+
+N/Users/rob/development/non-mgit/chopper-hopper/libs/cocos2d/Support/CGPointExtension.h
+c000000004B95005D00000000000013C1
+t1268056157
+s5057
+i<CoreGraphics/CGGeometry.h>
+i<math.h>
+
+N/Users/rob/development/non-mgit/chopper-hopper/libs/cocos2d/Support/EAGLView.h
+c000000004B95005D000000000000175A
+t1268056157
+s5978
+i<UIKit/UIKit.h>
+i<OpenGLES/EAGL.h>
+i<OpenGLES/EAGLDrawable.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+
+N/Users/rob/development/non-mgit/chopper-hopper/libs/cocos2d/Support/OpenGL_Internal.h
+c000000004B95005D000000000000111D
+t1268056157
+s4381
+
+N/Users/rob/development/non-mgit/chopper-hopper/libs/cocos2d/Support/TGAlib.h
+c000000004B95005D0000000000000444
+t1268056157
+s1092
+
+N/Users/rob/development/non-mgit/chopper-hopper/libs/cocos2d/Support/ccArray.h
+c000000004B95005D0000000000002E36
+t1268056157
+s11830
+i<Foundation/Foundation.h>
+i<stdlib.h>
+i<string.h>
+
+N/Users/rob/development/non-mgit/chopper-hopper/libs/cocos2d/Support/ccHashSet.h
+c000000004B95005D00000000000011BE
+t1268056157
+s4542
+
+N/Users/rob/development/non-mgit/chopper-hopper/libs/cocos2d/ccConfig.h
+c000000004B95005D0000000000000ED8
+t1268056157
+s3800
+
+N/Users/rob/development/non-mgit/chopper-hopper/libs/cocos2d/ccMacros.h
+c000000004B95005D00000000000007E8
+t1268056157
+s2024
+i<math.h>
+
+N/Users/rob/development/non-mgit/chopper-hopper/libs/cocos2d/ccTypes.h
+c000000004B95005D00000000000010AD
+t1268056157
+s4269
+i<CoreGraphics/CGGeometry.h>
+i<OpenGLES/ES1/gl.h>
+
+N/Users/rob/development/non-mgit/chopper-hopper/libs/cocos2d/cocos2d.h
+c000000004B95005D0000000000000A26
+t1268056157
+s2598
+i"CCAction.h"
+i"CCCamera.h"
+i"CCCameraAction.h"
+i"CCProtocols.h"
+i"CCNode.h"
+i"CCDirector.h"
+i"CCTouchDispatcher.h"
+i"CCTouchDelegateProtocol.h"
+i"CCInstantAction.h"
+i"CCIntervalAction.h"
+i"CCEaseAction.h"
+i"CCLabel.h"
+i"CCLayer.h"
+i"CCMenu.h"
+i"CCMenuItem.h"
+i"CCParticleSystem.h"
+i"CCPointParticleSystem.h"
+i"CCQuadParticleSystem.h"
+i"CCParticleExamples.h"
+i"CCDrawingPrimitives.h"
+i"CCScene.h"
+i"CCScheduler.h"
+i"CCSprite.h"
+i"CCSpriteFrame.h"
+i"CCSpriteSheet.h"
+i"CCSpriteFrameCache.h"
+i"CCTextureCache.h"
+i"CCTransition.h"
+i"CCTextureAtlas.h"
+i"CCLabelAtlas.h"
+i"CCAtlasNode.h"
+i"CCEaseAction.h"
+i"CCTiledGridAction.h"
+i"CCGrabber.h"
+i"CCGrid.h"
+i"CCGrid3DAction.h"
+i"CCGridAction.h"
+i"CCBitmapFontAtlas.h"
+i"CCParallaxNode.h"
+i"CCActionManager.h"
+i"CCTMXTiledMap.h"
+i"CCTMXLayer.h"
+i"CCTMXObjectGroup.h"
+i"CCTMXXMLParser.h"
+i"CCTileMapAtlas.h"
+i"CCRenderTexture.h"
+i"CCMotionStreak.h"
+i"CCPageTurn3DAction.h"
+i"CCPageTurnTransition.h"
+i"CCTexture2D.h"
+i"CCPVRTexture.h"
+i"CCTouchHandler.h"
+i"ccConfig.h"
+i"CCConfiguration.h"
+i"ccTypes.h"
+i"ccMacros.h"
+i"Support/OpenGL_Internal.h"
+i"Support/EAGLView.h"
+i"Support/CCFileUtils.h"
+i"Support/CGPointExtension.h"
+i"Support/ccArray.h"
+i"CCCompatibility.h"
+
+N/Users/rob/development/non-mgit/chopper-hopper/main.m
+c000000004B95005D0000000000000164
+t1268056157
+s356
+i<UIKit/UIKit.h>
+
+N/var/folders/1u/1uRmh48UGL0F0hu2+Zztu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/chopper_hopper_Prefix-bzakrwdwevugmsbnebuwcmtxytfy/chopper_hopper_Prefix.pch.gch
+t1268454559
+s13026768
+
+N/var/folders/1u/1uRmh48UGL0F0hu2+Zztu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/chopper_hopper_Prefix-enllqouvfcbcrdagdhudkorbydfs/chopper_hopper_Prefix.pch.gch
+t2
+s0
+
+NResources/Info.plist
+c000000004B95005C000000000000056C
+t1268056156
+s1388
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies290148242#290148242#0(0"0(0#1#0"4300911832#0"0#
+
+CCompileC build/chopper-hopper.build/Debug-iphonesimulator/chopper-hopper.build/Objects-normal/i386/ChopHop.o /Users/rob/development/non-mgit/chopper-hopper/Classes/ChopHop.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s290148242.859638
+e290148243.001187
+r1
+xCompileC
+xbuild/chopper-hopper.build/Debug-iphonesimulator/chopper-hopper.build/Objects-normal/i386/ChopHop.o
+x/Users/rob/development/non-mgit/chopper-hopper/Classes/ChopHop.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/rob/development/non-mgit/chopper-hopper/Classes/ChopHop.m: In function '-[ChopHop chopperLand]':
+o/Users/rob/development/non-mgit/chopper-hopper/Classes/ChopHop.m:109: warning: unused variable 'chopper'
+o/Users/rob/development/non-mgit/chopper-hopper/Classes/ChopHop.m: In function '-[ChopHop accelerometer:didAccelerate:]':
+o/Users/rob/development/non-mgit/chopper-hopper/Classes/ChopHop.m:125: warning: local declaration of 'chopper' hides instance variable
+o/Users/rob/development/non-mgit/chopper-hopper/Classes/ChopHop.m:129: warning: local declaration of 'chopper' hides instance variable
+lSLF07#2@72"Compile /Users/rob/development/non-mgit/chopper-hopper/Classes/ChopHop.m290148242#290148243#0(598"/Users/rob/development/non-mgit/chopper-hopper/Classes/ChopHop.m: In function '-[ChopHop chopperLand]':/Users/rob/development/non-mgit/chopper-hopper/Classes/ChopHop.m:109: warning: unused variable 'chopper'/Users/rob/development/non-mgit/chopper-hopper/Classes/ChopHop.m: In function '-[ChopHop accelerometer:didAccelerate:]':/Users/rob/development/non-mgit/chopper-hopper/Classes/ChopHop.m:125: warning: local declaration of 'chopper' hides instance variable/Users/rob/development/non-mgit/chopper-hopper/Classes/ChopHop.m:129: warning: local declaration of 'chopper' hides instance variable3(22@25"Unused variable 'chopper'290148242#104#105#0(6@64"/Users/rob/development/non-mgit/chopper-hopper/Classes/ChopHop.m290148242#109#0#109#0#19"unused variable '*'0(22@54"Local declaration of 'chopper' hides instance variable290148242#330#134#0(6@64"/Users/rob/development/non-mgit/chopper-hopper/Classes/ChopHop.m290148242#125#0#125#0#0"0(22@54"Local declaration of 'chopper' hides instance variable290148242#464#134#0(6@64"/Users/rob/development/non-mgit/chopper-hopper/Classes/ChopHop.m290148242#129#0#129#0#0"0(0#0#64"/Users/rob/development/non-mgit/chopper-hopper/Classes/ChopHop.m4300911832#2125"    cd /Users/rob/development/non-mgit/chopper-hopper    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DCOCOS2D_DEBUG=1 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphonesimulator/chopper-hopper.build/chopper-hopper-generated-files.hmap -I/Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphonesimulator/chopper-hopper.build/chopper-hopper-own-target-headers.hmap -I/Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphonesimulator/chopper-hopper.build/chopper-hopper-all-target-headers.hmap -iquote /Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphonesimulator/chopper-hopper.build/chopper-hopper-project-headers.hmap -Wall -F/Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphonesimulator -I/Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphonesimulator/include -I/Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphonesimulator/chopper-hopper.build/DerivedSources/i386 -I/Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphonesimulator/chopper-hopper.build/DerivedSources -include /var/folders/1u/1uRmh48UGL0F0hu2+Zztu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/chopper_hopper_Prefix-bzakrwdwevugmsbnebuwcmtxytfy/chopper_hopper_Prefix.pch -c /Users/rob/development/non-mgit/chopper-hopper/Classes/ChopHop.m -o /Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphonesimulator/chopper-hopper.build/Objects-normal/i386/ChopHop.o0#
+
+CCompileC build/chopper-hopper.build/Debug-iphonesimulator/chopper-hopper.build/Objects-normal/i386/Chopper.o /Users/rob/development/non-mgit/chopper-hopper/Classes/Chopper.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s290147359.808852
+e290147359.956392
+r1
+xCompileC
+xbuild/chopper-hopper.build/Debug-iphonesimulator/chopper-hopper.build/Objects-normal/i386/Chopper.o
+x/Users/rob/development/non-mgit/chopper-hopper/Classes/Chopper.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/rob/development/non-mgit/chopper-hopper/Classes/Chopper.m:56: warning: property 'sprite' requires method '-sprite' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/rob/development/non-mgit/chopper-hopper/Classes/Chopper.m:56: warning: property 'sprite' requires the method 'setSprite:' to be defined - use @synthesize, @dynamic or provide a method implementation
+lSLF07#2@72"Compile /Users/rob/development/non-mgit/chopper-hopper/Classes/Chopper.m290147359#290147360#0(405"/Users/rob/development/non-mgit/chopper-hopper/Classes/Chopper.m:56: warning: property 'sprite' requires method '-sprite' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/rob/development/non-mgit/chopper-hopper/Classes/Chopper.m:56: warning: property 'sprite' requires the method 'setSprite:' to be defined - use @synthesize, @dynamic or provide a method implementation2(22@120"Property 'sprite' requires method '-sprite' to be defined - use @synthesize, @dynamic or provide a method implementation290147359#0#199#0(6@64"/Users/rob/development/non-mgit/chopper-hopper/Classes/Chopper.m290147356#56#0#56#0#0"0(22@127"Property 'sprite' requires the method 'setSprite:' to be defined - use @synthesize, @dynamic or provide a method implementation290147359#199#206#0(6@64"/Users/rob/development/non-mgit/chopper-hopper/Classes/Chopper.m290147356#56#0#56#0#0"0(0#0#64"/Users/rob/development/non-mgit/chopper-hopper/Classes/Chopper.m4300911832#2125"    cd /Users/rob/development/non-mgit/chopper-hopper    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DCOCOS2D_DEBUG=1 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphonesimulator/chopper-hopper.build/chopper-hopper-generated-files.hmap -I/Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphonesimulator/chopper-hopper.build/chopper-hopper-own-target-headers.hmap -I/Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphonesimulator/chopper-hopper.build/chopper-hopper-all-target-headers.hmap -iquote /Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphonesimulator/chopper-hopper.build/chopper-hopper-project-headers.hmap -Wall -F/Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphonesimulator -I/Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphonesimulator/include -I/Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphonesimulator/chopper-hopper.build/DerivedSources/i386 -I/Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphonesimulator/chopper-hopper.build/DerivedSources -include /var/folders/1u/1uRmh48UGL0F0hu2+Zztu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/chopper_hopper_Prefix-bzakrwdwevugmsbnebuwcmtxytfy/chopper_hopper_Prefix.pch -c /Users/rob/development/non-mgit/chopper-hopper/Classes/Chopper.m -o /Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphonesimulator/chopper-hopper.build/Objects-normal/i386/Chopper.o0#
+
+CCompileC build/chopper-hopper.build/Debug-iphonesimulator/chopper-hopper.build/Objects-normal/i386/HelloWorldScene.o /Users/rob/development/non-mgit/chopper-hopper/Classes/HelloWorldScene.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s289748983.268062
+e289748983.361568
+r1
+xCompileC
+xbuild/chopper-hopper.build/Debug-iphonesimulator/chopper-hopper.build/Objects-normal/i386/HelloWorldScene.o
+x/Users/rob/development/non-mgit/chopper-hopper/Classes/HelloWorldScene.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/rob/development/non-mgit/chopper-hopper/Classes/HelloWorldScene.m289748983#289748983#0(0"0(0#0#72"/Users/rob/development/non-mgit/chopper-hopper/Classes/HelloWorldScene.m4300907800#2141"    cd /Users/rob/development/non-mgit/chopper-hopper    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DCOCOS2D_DEBUG=1 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphonesimulator/chopper-hopper.build/chopper-hopper-generated-files.hmap -I/Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphonesimulator/chopper-hopper.build/chopper-hopper-own-target-headers.hmap -I/Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphonesimulator/chopper-hopper.build/chopper-hopper-all-target-headers.hmap -iquote /Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphonesimulator/chopper-hopper.build/chopper-hopper-project-headers.hmap -Wall -F/Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphonesimulator -I/Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphonesimulator/include -I/Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphonesimulator/chopper-hopper.build/DerivedSources/i386 -I/Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphonesimulator/chopper-hopper.build/DerivedSources -include /var/folders/1u/1uRmh48UGL0F0hu2+Zztu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/chopper_hopper_Prefix-bzakrwdwevugmsbnebuwcmtxytfy/chopper_hopper_Prefix.pch -c /Users/rob/development/non-mgit/chopper-hopper/Classes/HelloWorldScene.m -o /Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphonesimulator/chopper-hopper.build/Objects-normal/i386/HelloWorldScene.o0#
+
+CCompileC build/chopper-hopper.build/Debug-iphonesimulator/chopper-hopper.build/Objects-normal/i386/Platform.o /Users/rob/development/non-mgit/chopper-hopper/Classes/Platform.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s290147359.806424
+e290147359.956149
+r1
+xCompileC
+xbuild/chopper-hopper.build/Debug-iphonesimulator/chopper-hopper.build/Objects-normal/i386/Platform.o
+x/Users/rob/development/non-mgit/chopper-hopper/Classes/Platform.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/rob/development/non-mgit/chopper-hopper/Classes/Platform.m: In function '-[Platform appear]':
+o/Users/rob/development/non-mgit/chopper-hopper/Classes/Platform.m:29: warning: 'Platform' may not respond to '-getRandomY'
+o/Users/rob/development/non-mgit/chopper-hopper/Classes/Platform.m:29: warning: (Messages without a matching method signature
+o/Users/rob/development/non-mgit/chopper-hopper/Classes/Platform.m:29: warning: will be assumed to return 'id' and accept
+o/Users/rob/development/non-mgit/chopper-hopper/Classes/Platform.m:29: warning: '...' as arguments.)
+o/Users/rob/development/non-mgit/chopper-hopper/Classes/Platform.m:29: warning: initialization makes integer from pointer without a cast
+o/Users/rob/development/non-mgit/chopper-hopper/Classes/Platform.m:42: warning: 'Platform' may not respond to '-getRandomHoldTime'
+o/Users/rob/development/non-mgit/chopper-hopper/Classes/Platform.m:42: warning: passing argument 1 of 'sleep' makes integer from pointer without a cast
+lSLF07#2@73"Compile /Users/rob/development/non-mgit/chopper-hopper/Classes/Platform.m290147359#290147360#0(987"/Users/rob/development/non-mgit/chopper-hopper/Classes/Platform.m: In function '-[Platform appear]':/Users/rob/development/non-mgit/chopper-hopper/Classes/Platform.m:29: warning: 'Platform' may not respond to '-getRandomY'/Users/rob/development/non-mgit/chopper-hopper/Classes/Platform.m:29: warning: (Messages without a matching method signature/Users/rob/development/non-mgit/chopper-hopper/Classes/Platform.m:29: warning: will be assumed to return 'id' and accept/Users/rob/development/non-mgit/chopper-hopper/Classes/Platform.m:29: warning: '...' as arguments.)/Users/rob/development/non-mgit/chopper-hopper/Classes/Platform.m:29: warning: initialization makes integer from pointer without a cast/Users/rob/development/non-mgit/chopper-hopper/Classes/Platform.m:42: warning: 'Platform' may not respond to '-getRandomHoldTime'/Users/rob/development/non-mgit/chopper-hopper/Classes/Platform.m:42: warning: passing argument 1 of 'sleep' makes integer from pointer without a cast5(22@43"'Platform' may not respond to '-getRandomY'290147359#101#123#0(6@65"/Users/rob/development/non-mgit/chopper-hopper/Classes/Platform.m290063318#29#0#29#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)290147359#224#125#0(6@65"/Users/rob/development/non-mgit/chopper-hopper/Classes/Platform.m290063318#29#0#29#0#0"0(22@56"Initialization makes integer from pointer without a cast290147359#570#136#0(6@65"/Users/rob/development/non-mgit/chopper-hopper/Classes/Platform.m290063318#29#0#29#0#0"0(22@50"'Platform' may not respond to '-getRandomHoldTime'290147359#706#130#0(6@65"/Users/rob/development/non-mgit/chopper-hopper/Classes/Platform.m290063318#42#0#42#0#26"'*' may not respond to '*'0(22@71"Passing argument 1 of 'sleep' makes integer from pointer without a cast290147359#836#151#0(6@65"/Users/rob/development/non-mgit/chopper-hopper/Classes/Platform.m290063318#42#0#42#0#67"passing argument * of '*' makes integer from pointer without a cast0(0#0#65"/Users/rob/development/non-mgit/chopper-hopper/Classes/Platform.m8102098223770858496#2127"    cd /Users/rob/development/non-mgit/chopper-hopper    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DCOCOS2D_DEBUG=1 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphonesimulator/chopper-hopper.build/chopper-hopper-generated-files.hmap -I/Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphonesimulator/chopper-hopper.build/chopper-hopper-own-target-headers.hmap -I/Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphonesimulator/chopper-hopper.build/chopper-hopper-all-target-headers.hmap -iquote /Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphonesimulator/chopper-hopper.build/chopper-hopper-project-headers.hmap -Wall -F/Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphonesimulator -I/Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphonesimulator/include -I/Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphonesimulator/chopper-hopper.build/DerivedSources/i386 -I/Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphonesimulator/chopper-hopper.build/DerivedSources -include /var/folders/1u/1uRmh48UGL0F0hu2+Zztu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/chopper_hopper_Prefix-bzakrwdwevugmsbnebuwcmtxytfy/chopper_hopper_Prefix.pch -c /Users/rob/development/non-mgit/chopper-hopper/Classes/Platform.m -o /Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphonesimulator/chopper-hopper.build/Objects-normal/i386/Platform.o0#
+
+CCompileC build/chopper-hopper.build/Debug-iphonesimulator/chopper-hopper.build/Objects-normal/i386/chopper_hopperAppDelegate.o /Users/rob/development/non-mgit/chopper-hopper/Classes/chopper_hopperAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s290148242.829011
+e290148243.023505
+r1
+xCompileC
+xbuild/chopper-hopper.build/Debug-iphonesimulator/chopper-hopper.build/Objects-normal/i386/chopper_hopperAppDelegate.o
+x/Users/rob/development/non-mgit/chopper-hopper/Classes/chopper_hopperAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@90"Compile /Users/rob/development/non-mgit/chopper-hopper/Classes/chopper_hopperAppDelegate.m290148242#290148243#0(0"0(0#0#82"/Users/rob/development/non-mgit/chopper-hopper/Classes/chopper_hopperAppDelegate.m4300911832#2161"    cd /Users/rob/development/non-mgit/chopper-hopper    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DCOCOS2D_DEBUG=1 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphonesimulator/chopper-hopper.build/chopper-hopper-generated-files.hmap -I/Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphonesimulator/chopper-hopper.build/chopper-hopper-own-target-headers.hmap -I/Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphonesimulator/chopper-hopper.build/chopper-hopper-all-target-headers.hmap -iquote /Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphonesimulator/chopper-hopper.build/chopper-hopper-project-headers.hmap -Wall -F/Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphonesimulator -I/Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphonesimulator/include -I/Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphonesimulator/chopper-hopper.build/DerivedSources/i386 -I/Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphonesimulator/chopper-hopper.build/DerivedSources -include /var/folders/1u/1uRmh48UGL0F0hu2+Zztu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/chopper_hopper_Prefix-bzakrwdwevugmsbnebuwcmtxytfy/chopper_hopper_Prefix.pch -c /Users/rob/development/non-mgit/chopper-hopper/Classes/chopper_hopperAppDelegate.m -o /Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphonesimulator/chopper-hopper.build/Objects-normal/i386/chopper_hopperAppDelegate.o0#
+
+CCompileC build/chopper-hopper.build/Debug-iphonesimulator/chopper-hopper.build/Objects-normal/i386/main.o /Users/rob/development/non-mgit/chopper-hopper/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s290147359.189170
+e290147359.588339
+r1
+xCompileC
+xbuild/chopper-hopper.build/Debug-iphonesimulator/chopper-hopper.build/Objects-normal/i386/main.o
+x/Users/rob/development/non-mgit/chopper-hopper/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@61"Compile /Users/rob/development/non-mgit/chopper-hopper/main.m290147359#290147359#0(0"0(0#0#53"/Users/rob/development/non-mgit/chopper-hopper/main.m4300911832#2111"    cd /Users/rob/development/non-mgit/chopper-hopper    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DCOCOS2D_DEBUG=1 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphonesimulator/chopper-hopper.build/chopper-hopper-generated-files.hmap -I/Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphonesimulator/chopper-hopper.build/chopper-hopper-own-target-headers.hmap -I/Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphonesimulator/chopper-hopper.build/chopper-hopper-all-target-headers.hmap -iquote /Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphonesimulator/chopper-hopper.build/chopper-hopper-project-headers.hmap -Wall -F/Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphonesimulator -I/Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphonesimulator/include -I/Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphonesimulator/chopper-hopper.build/DerivedSources/i386 -I/Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphonesimulator/chopper-hopper.build/DerivedSources -include /var/folders/1u/1uRmh48UGL0F0hu2+Zztu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/chopper_hopper_Prefix-bzakrwdwevugmsbnebuwcmtxytfy/chopper_hopper_Prefix.pch -c /Users/rob/development/non-mgit/chopper-hopper/main.m -o /Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphonesimulator/chopper-hopper.build/Objects-normal/i386/main.o0#
+
+CCpResource build/Debug-iphonesimulator/chopper-hopper.app/Default.png Resources/Default.png
+s289939019.222947
+e289939019.406515
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/chopper-hopper.app/Default.png
+xResources/Default.png
+lSLF07#2@26"Copy Resources/Default.png289939019#289939019#0(0"0(0#0#68"/Users/rob/development/non-mgit/chopper-hopper/Resources/Default.png12948338561581168#496"    cd /Users/rob/development/non-mgit/chopper-hopper    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/rob/development/non-mgit/chopper-hopper/Resources/Default.png /Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphonesimulator/chopper-hopper.app0#
+
+CCpResource build/Debug-iphonesimulator/chopper-hopper.app/Icon.png Resources/Icon.png
+s289748982.558274
+e289748982.565826
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/chopper-hopper.app/Icon.png
+xResources/Icon.png
+lSLF07#2@23"Copy Resources/Icon.png289748982#289748982#0(0"0(0#0#65"/Users/rob/development/non-mgit/chopper-hopper/Resources/Icon.png4300907800#493"    cd /Users/rob/development/non-mgit/chopper-hopper    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/rob/development/non-mgit/chopper-hopper/Resources/Icon.png /Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphonesimulator/chopper-hopper.app0#
+
+CCpResource build/Debug-iphonesimulator/chopper-hopper.app/background.png Resources/background.png
+s289939999.375201
+e289939999.380158
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/chopper-hopper.app/background.png
+xResources/background.png
+lSLF07#2@29"Copy Resources/background.png289939999#289939999#0(0"0(0#0#71"/Users/rob/development/non-mgit/chopper-hopper/Resources/background.png4300907800#499"    cd /Users/rob/development/non-mgit/chopper-hopper    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/rob/development/non-mgit/chopper-hopper/Resources/background.png /Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphonesimulator/chopper-hopper.app0#
+
+CCpResource build/Debug-iphonesimulator/chopper-hopper.app/chopper.png Resources/chopper.png
+s289939237.018961
+e289939237.023566
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/chopper-hopper.app/chopper.png
+xResources/chopper.png
+lSLF07#2@26"Copy Resources/chopper.png289939237#289939237#0(0"0(0#0#68"/Users/rob/development/non-mgit/chopper-hopper/Resources/chopper.png4300907800#496"    cd /Users/rob/development/non-mgit/chopper-hopper    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/rob/development/non-mgit/chopper-hopper/Resources/chopper.png /Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphonesimulator/chopper-hopper.app0#
+
+CCpResource build/Debug-iphonesimulator/chopper-hopper.app/fps_images.png Resources/fps_images.png
+s289748982.557651
+e289748982.562999
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/chopper-hopper.app/fps_images.png
+xResources/fps_images.png
+lSLF07#2@29"Copy Resources/fps_images.png289748982#289748982#0(0"0(0#0#71"/Users/rob/development/non-mgit/chopper-hopper/Resources/fps_images.png4300907800#499"    cd /Users/rob/development/non-mgit/chopper-hopper    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/rob/development/non-mgit/chopper-hopper/Resources/fps_images.png /Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphonesimulator/chopper-hopper.app0#
+
+CCpResource build/Debug-iphonesimulator/chopper-hopper.app/platform.png Resources/platform.png
+s289939495.317075
+e289939495.322012
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/chopper-hopper.app/platform.png
+xResources/platform.png
+lSLF07#2@27"Copy Resources/platform.png289939495#289939495#0(0"0(0#0#69"/Users/rob/development/non-mgit/chopper-hopper/Resources/platform.png4300907800#497"    cd /Users/rob/development/non-mgit/chopper-hopper    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/rob/development/non-mgit/chopper-hopper/Resources/platform.png /Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphonesimulator/chopper-hopper.app0#
+
+CCpResource build/Debug-iphonesimulator/chopper-hopper.app/splash.png Resources/splash.png
+s289942164.095004
+e289942164.128212
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/chopper-hopper.app/splash.png
+xResources/splash.png
+lSLF07#2@25"Copy Resources/splash.png289942164#289942164#0(0"0(0#0#67"/Users/rob/development/non-mgit/chopper-hopper/Resources/splash.png4300907800#495"    cd /Users/rob/development/non-mgit/chopper-hopper    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/rob/development/non-mgit/chopper-hopper/Resources/splash.png /Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphonesimulator/chopper-hopper.app0#
+
+CCpResource build/Debug-iphonesimulator/chopper-hopper.app/startbutton1.png Resources/startbutton1.png
+s289941660.439604
+e289941660.451060
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/chopper-hopper.app/startbutton1.png
+xResources/startbutton1.png
+lSLF07#2@31"Copy Resources/startbutton1.png289941660#289941660#0(0"0(0#0#73"/Users/rob/development/non-mgit/chopper-hopper/Resources/startbutton1.png4300907800#501"    cd /Users/rob/development/non-mgit/chopper-hopper    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/rob/development/non-mgit/chopper-hopper/Resources/startbutton1.png /Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphonesimulator/chopper-hopper.app0#
+
+CCpResource build/Debug-iphonesimulator/chopper-hopper.app/startbutton2.png Resources/startbutton2.png
+s289941660.440323
+e289941660.445061
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/chopper-hopper.app/startbutton2.png
+xResources/startbutton2.png
+lSLF07#2@31"Copy Resources/startbutton2.png289941660#289941660#0(0"0(0#0#73"/Users/rob/development/non-mgit/chopper-hopper/Resources/startbutton2.png4300907800#501"    cd /Users/rob/development/non-mgit/chopper-hopper    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/rob/development/non-mgit/chopper-hopper/Resources/startbutton2.png /Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphonesimulator/chopper-hopper.app0#
+
+CCpResource build/Debug-iphonesimulator/chopper-hopper.app/water.png Resources/water.png
+s290099318.449412
+e290099318.494761
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/chopper-hopper.app/water.png
+xResources/water.png
+lSLF07#2@24"Copy Resources/water.png290099318#290099318#0(0"0(0#0#66"/Users/rob/development/non-mgit/chopper-hopper/Resources/water.png4300907800#494"    cd /Users/rob/development/non-mgit/chopper-hopper    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/rob/development/non-mgit/chopper-hopper/Resources/water.png /Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphonesimulator/chopper-hopper.app0#
+
+CGenerateDSYMFile /Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphonesimulator/chopper-hopper.app.dSYM /Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphonesimulator/chopper-hopper.app/chopper-hopper
+s290148243.513418
+e290148243.748010
+r1
+xGenerateDSYMFile
+x/Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphonesimulator/chopper-hopper.app.dSYM
+x/Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphonesimulator/chopper-hopper.app/chopper-hopper
+lSLF07#2@130"GenerateDSYMFile build/Debug-iphonesimulator/chopper-hopper.app.dSYM build/Debug-iphonesimulator/chopper-hopper.app/chopper-hopper290148243#290148243#0(0"0(0#0#108"/Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphonesimulator/chopper-hopper.app/chopper-hopper4300911832#428"    cd /Users/rob/development/non-mgit/chopper-hopper    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphonesimulator/chopper-hopper.app/chopper-hopper -o /Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphonesimulator/chopper-hopper.app.dSYM0#
+
+CLd /Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphonesimulator/chopper-hopper.app/chopper-hopper normal i386
+s290148243.023588
+e290148243.513321
+r1
+xLd
+x/Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphonesimulator/chopper-hopper.app/chopper-hopper
+xnormal
+xi386
+lSLF07#2@113"Link /Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphonesimulator/chopper-hopper.app/chopper-hopper290148243#290148243#0(0"0(0#0#0"4300911832#1089"    cd /Users/rob/development/non-mgit/chopper-hopper    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -L/Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphonesimulator -F/Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphonesimulator -filelist /Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphonesimulator/chopper-hopper.build/Objects-normal/i386/chopper-hopper.LinkFileList -mmacosx-version-min=10.5 -all_load -ObjC -framework CoreGraphics -framework Foundation -framework OpenGLES -framework QuartzCore -framework UIKit -framework AudioToolbox -framework OpenAL -lz -framework AVFoundation "-lcocos2d libraries" -o /Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphonesimulator/chopper-hopper.app/chopper-hopper0#
+
+CProcessInfoPlistFile /Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphonesimulator/chopper-hopper.app/Info.plist Resources/Info.plist
+s289748982.553418
+e289748982.556936
+r1
+xProcessInfoPlistFile
+x/Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphonesimulator/chopper-hopper.app/Info.plist
+xResources/Info.plist
+lSLF07#2@28"Process Resources/Info.plist289748982#289748982#0(0"0(0#0#67"/Users/rob/development/non-mgit/chopper-hopper/Resources/Info.plist4300907800#519"    cd /Users/rob/development/non-mgit/chopper-hopper    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Resources/Info.plist -genpkginfo /Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphonesimulator/chopper-hopper.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphonesimulator/chopper-hopper.app/Info.plist0#
+
+CProcessPCH /var/folders/1u/1uRmh48UGL0F0hu2+Zztu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/chopper_hopper_Prefix-bzakrwdwevugmsbnebuwcmtxytfy/chopper_hopper_Prefix.pch.gch chopper_hopper_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s290147356.622663
+e290147359.188958
+r1
+xProcessPCH
+x/var/folders/1u/1uRmh48UGL0F0hu2+Zztu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/chopper_hopper_Prefix-bzakrwdwevugmsbnebuwcmtxytfy/chopper_hopper_Prefix.pch.gch
+xchopper_hopper_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@36"Precompile chopper_hopper_Prefix.pch290147356#290147359#0(0"0(0#0#72"/Users/rob/development/non-mgit/chopper-hopper/chopper_hopper_Prefix.pch7521907975525852160#1988"    cd /Users/rob/development/non-mgit/chopper-hopper    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DCOCOS2D_DEBUG=1 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphonesimulator/chopper-hopper.build/chopper-hopper-generated-files.hmap -I/Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphonesimulator/chopper-hopper.build/chopper-hopper-own-target-headers.hmap -I/Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphonesimulator/chopper-hopper.build/chopper-hopper-all-target-headers.hmap -iquote /Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphonesimulator/chopper-hopper.build/chopper-hopper-project-headers.hmap -Wall -F/Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphonesimulator -I/Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphonesimulator/include -I/Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphonesimulator/chopper-hopper.build/DerivedSources/i386 -I/Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphonesimulator/chopper-hopper.build/DerivedSources -c /Users/rob/development/non-mgit/chopper-hopper/chopper_hopper_Prefix.pch -o /var/folders/1u/1uRmh48UGL0F0hu2+Zztu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/chopper_hopper_Prefix-bzakrwdwevugmsbnebuwcmtxytfy/chopper_hopper_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/1u/1uRmh48UGL0F0hu2+Zztu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/chopper_hopper_Prefix-enllqouvfcbcrdagdhudkorbydfs/chopper_hopper_Prefix.pch.gch chopper_hopper_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CTouch /Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphonesimulator/chopper-hopper.app
+s290148243.748096
+e290148243.783811
+r1
+xTouch
+x/Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphonesimulator/chopper-hopper.app
+lSLF07#2@99"Touch /Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphonesimulator/chopper-hopper.app290148243#290148243#0(0"0(0#0#0"4300911832#301"    cd /Users/rob/development/non-mgit/chopper-hopper    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphonesimulator/chopper-hopper.app0#
+
