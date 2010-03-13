@@ -10,9 +10,10 @@
 
 @interface Chopper : NSObject {
 	CCSprite *sprite;
+	NSMutableArray *platformList;
 }
 
--(id) initWithTargetLayer: (CCLayer *) layer Tag:(NSInteger) thetag;
+-(id) initWithTargetLayer: (CCLayer *) layer Tag:(NSInteger) thetag PlatformListHandel: (NSMutableArray*) theplatforms;
 -(void) moveWithLocation: (CGPoint) location;
 
 @property (retain) CCSprite *sprite;

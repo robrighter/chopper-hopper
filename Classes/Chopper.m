@@ -7,17 +7,18 @@
 //
 
 #import "Chopper.h"
+#import "Platform.h"
 
 
 @implementation Chopper
 
 
--(id) initWithTargetLayer: (CCLayer *) layer Tag:(NSInteger) thetag{
+-(id) initWithTargetLayer: (CCLayer *) layer Tag:(NSInteger) thetag PlatformListHandel: (NSMutableArray*) theplatforms {
 	// Apple recommends to re-assign "self" with the "super" return value
 	if( (self=[super init] )) {
+		platformList = theplatforms;
 		sprite = [CCSprite spriteWithFile:@"chopper.png"];
-		sprite.position = ccp( 0, 10.0f);
-		
+		sprite.position = ccp( 200, 200);
 		[layer addChild:sprite z:999 tag:thetag];
 	}
 	return self;
@@ -50,6 +51,15 @@
 }
 
 -(void) chopperLand {
+	NSEnumerator * enumerator = [platformList objectEnumerator];
+	Platform *platform;
+	NSLog(@"################################################");
+	while(platform = ((Platform *)[enumerator nextObject]))
+    {
+		NSLog(@"Chopper is (%f,%f) | Platform is (%f,%f)", sprite.position.x,sprite.position.y,platform.sprite.position.x, (platform.sprite.position.y + 170.0f));
+    }
+	NSLog(@"################################################");
+	
 	
 }
 

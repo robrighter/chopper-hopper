@@ -17,7 +17,7 @@
 	// Apple recommends to re-assign "self" with the "super" return value
 	if( (self=[super init] )) {
 		self.sprite = [CCSprite spriteWithFile:@"platform.png"];
-		self.sprite.position = ccp( xpos, 10.0f);
+		self.sprite.position = ccp( xpos, -120);
 		X = xpos;
 		[layer addChild:self.sprite z:10 tag:thetag];
 		[self run];
@@ -26,6 +26,7 @@
 }
 
 -(void) appear {
+	NSAutoreleasePool *autopool = [[NSAutoreleasePool alloc] init];
 	int r = [self getRandomY];
 	// and we run a new action
 	id theaction = [CCSequence actions:
@@ -43,6 +44,7 @@
 	
 
 	[NSThread detachNewThreadSelector:@selector(appear) toTarget:self withObject:nil];
+	[autopool release];
 	
 }
 

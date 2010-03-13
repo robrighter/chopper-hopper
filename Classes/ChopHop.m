@@ -85,10 +85,10 @@ enum {
 	
 	platformList = [[NSMutableArray alloc] init];
 	for (int i=0; i<7; i++) {
-		[platformList addObject:[[Platform alloc] initWithXPosition: ((70*i)+30) TargetLayer:self Tag:(90+i)]];
+		[platformList addObject:[[Platform alloc] initWithXPosition: ((70*i)+30) TargetLayer:self Tag:(90+i) ]];
 	}
 	
-	chopper = [[Chopper alloc] initWithTargetLayer:self Tag:kTagChopper];
+	chopper = [[Chopper alloc] initWithTargetLayer:self Tag:kTagChopper PlatformListHandel:platformList];
 }
 
 - (void)ccTouchesEnded:(NSSet *)touches withEvent:(UIEvent *)event
@@ -103,11 +103,6 @@ enum {
 		CGPoint convertedPoint = [[CCDirector sharedDirector] convertToGL:location];
 		[chopper moveWithLocation:convertedPoint];
 	}	
-}
-
--(void) chopperLand {
-	    CCNode *chopper = [self getChildByTag:kTagChopper];
-		//[chopper runAction:[CCRotateTo actionWithDuration:1 angle:180.0f]];	
 }
 
 

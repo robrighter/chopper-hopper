@@ -273,7 +273,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>10</integer>
+									<integer>6</integer>
 									<integer>4</integer>
 									<integer>0</integer>
 								</array>
@@ -316,7 +316,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>ChopHop.m</string>
+								<string>Chopper.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -324,11 +324,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>ChopHop.m</string>
+										<string>Chopper.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>D4A97630114B501900A544DB</string>
+										<string>D4A976D4114B615F00A544DB</string>
 										<key>history</key>
 										<array>
 											<string>D4E812FC11453A2B00D39EDB</string>
@@ -339,14 +339,15 @@
 											<string>D4F03B131148222100E2E1E7</string>
 											<string>D4F03B141148222100E2E1E7</string>
 											<string>D4F03B7211482A9500E2E1E7</string>
-											<string>D4F03BB11148313900E2E1E7</string>
 											<string>D47D383A114A044D00324A06</string>
-											<string>D47D383C114A044D00324A06</string>
 											<string>D4A97615114B4BB900A544DB</string>
-											<string>D4A97616114B4BB900A544DB</string>
-											<string>D4A9761D114B4C1E00A544DB</string>
 											<string>D4A9762D114B4F9400A544DB</string>
-											<string>D4A9762E114B4F9400A544DB</string>
+											<string>D4A97680114B570F00A544DB</string>
+											<string>D4A97685114B573D00A544DB</string>
+											<string>D4A976B4114B5C8C00A544DB</string>
+											<string>D4A976C0114B5E7D00A544DB</string>
+											<string>D4A976CC114B609400A544DB</string>
+											<string>D4A976CD114B609400A544DB</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -573,7 +574,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>ChopHop.m</string>
+								<string>Chopper.h</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -884,6 +885,8 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -894,18 +897,18 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {639, 491}}</string>
+								<string>{{0, 0}, {1091, 599}}</string>
 								<key>RubberWindowFrame</key>
-								<string>536 255 639 532 0 0 1440 878 </string>
+								<string>234 226 1091 640 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXDebugCLIModule</string>
 							<key>Proportion</key>
-							<string>491pt</string>
+							<string>599pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
-					<string>491pt</string>
+					<string>599pt</string>
 				</dict>
 			</array>
 			<key>Name</key>
@@ -925,7 +928,7 @@
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.consoleV3</string>
 			<key>WindowString</key>
-			<string>536 255 639 532 0 0 1440 878 </string>
+			<string>234 226 1091 640 0 0 1440 878 </string>
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>
