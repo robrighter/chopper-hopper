@@ -29,9 +29,10 @@
 	NSAutoreleasePool *autopool = [[NSAutoreleasePool alloc] init];
 	int r = [self getRandomY];
 	// and we run a new action
+	float duration = ((r+200) * 0.02);
 	id theaction = [CCSequence actions:
-				 [CCMoveTo actionWithDuration:((r+200) * 0.01) position:ccp( X, r)],
-				 [CCMoveTo actionWithDuration:((r+200) * 0.01) position:ccp( X, -120)],
+				 [CCMoveTo actionWithDuration:duration position:ccp( X, r)],
+				 [CCMoveTo actionWithDuration:duration position:ccp( X, -120)],
 				 //[CCCallFunc actionWithTarget:self selector:@selector(chopperLand)],
 				 nil ];
 	
@@ -40,21 +41,20 @@
 	
 	//[self.sprite runAction: [CCMoveTo actionWithDuration:0.3 position:ccp( X, r)]];
 	//self.sprite.position = ccp( X, r);
-	sleep([self getRandomHoldTime]);
+	[NSThread sleepForTimeInterval:duration*(2.01f)];
+	[NSThread sleepForTimeInterval:((random()%70) * 0.1f)];
+	//sleep([self getRandomHoldTime]);
 	
 
 	[NSThread detachNewThreadSelector:@selector(appear) toTarget:self withObject:nil];
-	[autopool release];
+	[autopool drain];
 	
 }
 
--(int) getRandomHoldTime {
-	// 7 is the minimum
-	return (random()%2)+7;
-}
 
 -(int) getRandomY {
-	return (random()%300)-(150.0f);
+	//return (random()%300)-(150.0f);
+	return 150.0f;//uncomment to try alternate game style with full height platforms all the time
 }
 
 -(void) run{
