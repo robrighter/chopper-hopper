@@ -10,18 +10,23 @@
 
 #define PLATFORM_X_OFFSET 4.0f
 #define PLATFORM_Y_OFFSET 157.0f
+#define WATERLEVEL 48.0f
 
 @implementation Chopper
 
 
--(id) initWithTargetLayer: (CCLayer *) layer Tag:(NSInteger) thetag PlatformListHandel: (NSMutableArray*) theplatforms {
+-(id) initWithTargetLayer: (CCLayer *) layer Tag:(NSInteger) thetag PlatformListHandel: (NSMutableArray*) theplatforms LoseTarget: (id) losetarget LoseSelector: (SEL) loseselector ScoreBoard: (ScoreBoard*) thescoreboard {
 	// Apple recommends to re-assign "self" with the "super" return value
 	if( (self=[super init] )) {
 		platformList = theplatforms;
+		scoreBoard = thescoreboard;
 		sprite = [CCSprite spriteWithFile:@"chopper.png"];
 		sprite.position = ccp( 200, 200);
 		[layer addChild:sprite z:800 tag:thetag];
 		landedOn = nil;
+		loseCallbackSelector = loseselector;
+		loseCallbackTarget = losetarget;
+		fuel = 100.0f;
 		[self run];
 	}
 	return self;
@@ -32,7 +37,7 @@
 	
 	//reset landedOn to nil to allow the chopper to fly away
 	landedOn = nil;
-	
+	[scoreBoard incrementGameScore:1];
 	
 	if(sprite.position.x > location.x){
 		sprite.rotation = -25.0f;
@@ -89,20 +94,42 @@
 	}	
 }
 
+-(bool) isGameOver {
+	if (sprite.position.y < WATERLEVEL) {
+		return true;
+	}
+	if (fuel < 0) {
+		return true;
+	}
+	
+	return false;
+}
+
 -(void) landOnPlatform: (Platform *) p {
 	landedOn = p;
 }
 
 -(void) trackIfLanded {
 	NSAutoreleasePool *autopool = [[NSAutoreleasePool alloc] init];
+	if ([self isGameOver]) {
+		NSLog(@"Game over. Calling the Lose Selector");
+		[loseCallbackTarget performSelector:loseCallbackSelector];
+		[autopool drain];
+		return;
+	}
+
 	CCSprite *totrack = [landedOn sprite];
 	if (totrack == nil) {
+		fuel = fuel - 0.1f;
+		[scoreBoard setLeftFuel:fuel];
+		NSLog(@"Current Fuel Level: %f", fuel);
 		[NSThread sleepForTimeInterval:0.02];
 	}
 	else {
 		//TRACK IT
 		sprite.position = CGPointMake(totrack.position.x+PLATFORM_X_OFFSET, (totrack.position.y+PLATFORM_Y_OFFSET));
 	}
+	//[scoreBoard incrementGameScore:1];
 	[NSThread sleepForTimeInterval:0.01];
 	[NSThread detachNewThreadSelector:@selector(trackIfLanded) toTarget:self withObject:nil];
 	[autopool drain];

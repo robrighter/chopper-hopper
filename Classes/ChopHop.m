@@ -12,6 +12,8 @@ enum {
 	kTagSplash = 3,
 	kTagMenu = 4,
 	kTagWater = 5,
+	kTagScoreBoard = 6,
+	kTagGameOver = 7,
 };
 //Platform tags go from 90 - 97
 
@@ -60,11 +62,9 @@ enum {
 		
 		
 		// create and initialize a Label
-		CCLabel* label = [CCLabel labelWithString:@"Chopper Hopper Ya'll" fontName:@"Marker Felt" fontSize:15];
+		CCLabel* label = [CCLabel labelWithString:@"@robrighter 2010" fontName:@"Marker Felt" fontSize:15];
 		label.position =  ccp( size.width /2 , 20 );
 		[self addChild: label];
-		
-		
 		
 	}
 	return self;
@@ -88,7 +88,18 @@ enum {
 		[platformList addObject:[[Platform alloc] initWithXPosition: ((70*i)+30) TargetLayer:self Tag:(90+i) ]];
 	}
 	
-	chopper = [[Chopper alloc] initWithTargetLayer:self Tag:kTagChopper PlatformListHandel:platformList];
+	scoreboard = [[ScoreBoard alloc] initWithTargetLayer:self Tag:kTagScoreBoard Mode:GAME_MODE_DUEL];
+	chopper = [[Chopper alloc] initWithTargetLayer:self Tag:kTagChopper PlatformListHandel:platformList LoseTarget:self LoseSelector:@selector(gameOverCallback) ScoreBoard:scoreboard];
+	
+	gameOver = [CCSprite spriteWithFile:@"gameover.png"];
+	gameOver.position = ccp( size.width/2, size.height/2);
+	gameOver.visible = NO;
+	[self addChild:gameOver z:999 tag:kTagGameOver];
+}
+
+-(void)gameOverCallback {
+	gameOver.visible = YES;
+	NSLog(@"GAME OVER CALLBACK COMPLETE");
 }
 
 - (void)ccTouchesEnded:(NSSet *)touches withEvent:(UIEvent *)event

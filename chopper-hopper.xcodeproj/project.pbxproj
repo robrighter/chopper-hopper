@@ -196,7 +196,11 @@
 		50F414F01069373D002A0D5E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F414EC1069373D002A0D5E /* Default.png */; };
 		50F414F11069373D002A0D5E /* fps_images.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F414ED1069373D002A0D5E /* fps_images.png */; };
 		50F414F21069373D002A0D5E /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F414EE1069373D002A0D5E /* Icon.png */; };
+		D45A8E0B114F2B5D00248B50 /* ScoreBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = D45A8E0A114F2B5D00248B50 /* ScoreBoard.m */; };
+		D45A8E0F114F2B9100248B50 /* fuelbar2.png in Resources */ = {isa = PBXBuildFile; fileRef = D45A8E0D114F2B9100248B50 /* fuelbar2.png */; };
+		D45A8E10114F2B9100248B50 /* fuelbar1.png in Resources */ = {isa = PBXBuildFile; fileRef = D45A8E0E114F2B9100248B50 /* fuelbar1.png */; };
 		D47D385C114A902600324A06 /* water.png in Resources */ = {isa = PBXBuildFile; fileRef = D47D385B114A902600324A06 /* water.png */; };
+		D4E65311114F4382000F4855 /* gameover.png in Resources */ = {isa = PBXBuildFile; fileRef = D4E65310114F4382000F4855 /* gameover.png */; };
 		D4E813301145453A00D39EDB /* chopper.png in Resources */ = {isa = PBXBuildFile; fileRef = D4E8132F1145453A00D39EDB /* chopper.png */; };
 		D4E813321145454300D39EDB /* platform.png in Resources */ = {isa = PBXBuildFile; fileRef = D4E813311145454300D39EDB /* platform.png */; };
 		D4E8133D114546F400D39EDB /* Platform.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E8133C114546F400D39EDB /* Platform.m */; };
@@ -414,7 +418,12 @@
 		50F414ED1069373D002A0D5E /* fps_images.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fps_images.png; sourceTree = "<group>"; };
 		50F414EE1069373D002A0D5E /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		50F414EF1069373D002A0D5E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D45A8E09114F2B5D00248B50 /* ScoreBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreBoard.h; sourceTree = "<group>"; };
+		D45A8E0A114F2B5D00248B50 /* ScoreBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreBoard.m; sourceTree = "<group>"; };
+		D45A8E0D114F2B9100248B50 /* fuelbar2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fuelbar2.png; sourceTree = "<group>"; };
+		D45A8E0E114F2B9100248B50 /* fuelbar1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fuelbar1.png; sourceTree = "<group>"; };
 		D47D385B114A902600324A06 /* water.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = water.png; sourceTree = "<group>"; };
+		D4E65310114F4382000F4855 /* gameover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gameover.png; sourceTree = "<group>"; };
 		D4E8132F1145453A00D39EDB /* chopper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chopper.png; sourceTree = "<group>"; };
 		D4E813311145454300D39EDB /* platform.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = platform.png; sourceTree = "<group>"; };
 		D4E8133B114546F400D39EDB /* Platform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Platform.h; sourceTree = "<group>"; };
@@ -521,6 +530,8 @@
 		2D500B1D0D5A766B00DBA0E3 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				D45A8E09114F2B5D00248B50 /* ScoreBoard.h */,
+				D45A8E0A114F2B5D00248B50 /* ScoreBoard.m */,
 				D4F03B9511482E4B00E2E1E7 /* Chopper.h */,
 				D4F03B9611482E4B00E2E1E7 /* Chopper.m */,
 				D4E8133B114546F400D39EDB /* Platform.h */,
@@ -785,7 +796,10 @@
 		50F414EB1069373D002A0D5E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				D4E65310114F4382000F4855 /* gameover.png */,
 				D4E813311145454300D39EDB /* platform.png */,
+				D45A8E0D114F2B9100248B50 /* fuelbar2.png */,
+				D45A8E0E114F2B9100248B50 /* fuelbar1.png */,
 				D47D385B114A902600324A06 /* water.png */,
 				D4F03B6E11482A7A00E2E1E7 /* splash.png */,
 				D4F03B611148289500E2E1E7 /* startbutton1.png */,
@@ -973,6 +987,9 @@
 				D4F03B641148289500E2E1E7 /* startbutton2.png in Resources */,
 				D4F03B6F11482A7A00E2E1E7 /* splash.png in Resources */,
 				D47D385C114A902600324A06 /* water.png in Resources */,
+				D45A8E0F114F2B9100248B50 /* fuelbar2.png in Resources */,
+				D45A8E10114F2B9100248B50 /* fuelbar1.png in Resources */,
+				D4E65311114F4382000F4855 /* gameover.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -988,6 +1005,7 @@
 				506EDC31102F528A00A389B3 /* ChopHop.m in Sources */,
 				D4E8133D114546F400D39EDB /* Platform.m in Sources */,
 				D4F03B9711482E4B00E2E1E7 /* Chopper.m in Sources */,
+				D45A8E0B114F2B5D00248B50 /* ScoreBoard.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

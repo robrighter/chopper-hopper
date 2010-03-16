@@ -7,6 +7,7 @@
 //
 #import "cocos2d.h"
 #import "Platform.h"
+#import "ScoreBoard.h"
 
 
 @interface Chopper : NSObject {
@@ -14,12 +15,19 @@
 	NSMutableArray *platformList;
 	Platform *landedOn;
 	bool pause;
+	SEL loseCallbackSelector;
+	id loseCallbackTarget;
+	float fuel;
+	ScoreBoard *scoreBoard;
 	
 }
 
--(id) initWithTargetLayer: (CCLayer *) layer Tag:(NSInteger) thetag PlatformListHandel: (NSMutableArray*) theplatforms;
+-(id) initWithTargetLayer: (CCLayer *) layer Tag:(NSInteger) thetag PlatformListHandel: (NSMutableArray*) theplatforms LoseTarget: (id) losetarget LoseSelector: (SEL) loseselector ScoreBoard: (ScoreBoard*) thescoreboard;
 -(void) moveWithLocation: (CGPoint) location;
-
-@property (retain) CCSprite *sprite;
+-(void) run;
+-(void) landOnPlatform: (Platform *) p;
+-(void) trackIfLanded;
+-(bool) isInRangeToLandOnPlatform: (CGPoint) platformlocation;
+-(bool) isGameOver;
 
 @end
