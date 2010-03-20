@@ -41,7 +41,8 @@
 }
 
 -(void) setRightFuel: (float) value {
-	rightFuelBar.position = ccp(rightFuelBar.position.x + ((FUEL_BAR_WIDTH/100.0f)*value),FUEL_BAR_Y);	
+	rightFuelBar.position = ccp( ((FUEL_BAR_WIDTH/100.0f)*value)+RIGHT_FUEL_X ,FUEL_BAR_Y);
+	//ccp(rightFuelBar.position.x + ((FUEL_BAR_WIDTH/100.0f)*value),FUEL_BAR_Y);	
 }
 
 -(void) incrementGameScore: (int) value {

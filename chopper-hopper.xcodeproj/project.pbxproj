@@ -196,6 +196,7 @@
 		50F414F01069373D002A0D5E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F414EC1069373D002A0D5E /* Default.png */; };
 		50F414F11069373D002A0D5E /* fps_images.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F414ED1069373D002A0D5E /* fps_images.png */; };
 		50F414F21069373D002A0D5E /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F414EE1069373D002A0D5E /* Icon.png */; };
+		D41F899D1154720700CBA1DB /* AIChopperController.m in Sources */ = {isa = PBXBuildFile; fileRef = D41F899C1154720700CBA1DB /* AIChopperController.m */; };
 		D45A8E0B114F2B5D00248B50 /* ScoreBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = D45A8E0A114F2B5D00248B50 /* ScoreBoard.m */; };
 		D45A8E0F114F2B9100248B50 /* fuelbar2.png in Resources */ = {isa = PBXBuildFile; fileRef = D45A8E0D114F2B9100248B50 /* fuelbar2.png */; };
 		D45A8E10114F2B9100248B50 /* fuelbar1.png in Resources */ = {isa = PBXBuildFile; fileRef = D45A8E0E114F2B9100248B50 /* fuelbar1.png */; };
@@ -418,6 +419,8 @@
 		50F414ED1069373D002A0D5E /* fps_images.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fps_images.png; sourceTree = "<group>"; };
 		50F414EE1069373D002A0D5E /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		50F414EF1069373D002A0D5E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D41F899B1154720700CBA1DB /* AIChopperController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIChopperController.h; sourceTree = "<group>"; };
+		D41F899C1154720700CBA1DB /* AIChopperController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIChopperController.m; sourceTree = "<group>"; };
 		D45A8E09114F2B5D00248B50 /* ScoreBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreBoard.h; sourceTree = "<group>"; };
 		D45A8E0A114F2B5D00248B50 /* ScoreBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreBoard.m; sourceTree = "<group>"; };
 		D45A8E0D114F2B9100248B50 /* fuelbar2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fuelbar2.png; sourceTree = "<group>"; };
@@ -532,6 +535,8 @@
 			children = (
 				D45A8E09114F2B5D00248B50 /* ScoreBoard.h */,
 				D45A8E0A114F2B5D00248B50 /* ScoreBoard.m */,
+				D41F899B1154720700CBA1DB /* AIChopperController.h */,
+				D41F899C1154720700CBA1DB /* AIChopperController.m */,
 				D4F03B9511482E4B00E2E1E7 /* Chopper.h */,
 				D4F03B9611482E4B00E2E1E7 /* Chopper.m */,
 				D4E8133B114546F400D39EDB /* Platform.h */,
@@ -1006,6 +1011,7 @@
 				D4E8133D114546F400D39EDB /* Platform.m in Sources */,
 				D4F03B9711482E4B00E2E1E7 /* Chopper.m in Sources */,
 				D45A8E0B114F2B5D00248B50 /* ScoreBoard.m in Sources */,
+				D41F899D1154720700CBA1DB /* AIChopperController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1190,13 +1196,15 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Rob Righter (N799Q526G4)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1;
 				ONLY_ACTIVE_ARCH = YES;
 				PREBINDING = NO;
-				SDKROOT = iphoneos3.0;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "D9FBC371-9F35-408C-B3C5-F58826E92E48";
+				SDKROOT = iphoneos3.1;
 			};
 			name = Debug;
 		};

@@ -14,15 +14,18 @@
 	CCSprite *sprite;
 	NSMutableArray *platformList;
 	Platform *landedOn;
+	Platform *toIgnore;
 	bool pause;
 	SEL loseCallbackSelector;
 	id loseCallbackTarget;
 	float fuel;
 	ScoreBoard *scoreBoard;
+	NSDate *scoreTime;
+	int chopperNumber;
 	
 }
 
--(id) initWithTargetLayer: (CCLayer *) layer Tag:(NSInteger) thetag PlatformListHandel: (NSMutableArray*) theplatforms LoseTarget: (id) losetarget LoseSelector: (SEL) loseselector ScoreBoard: (ScoreBoard*) thescoreboard;
+-(id) initWithTargetLayer: (CCLayer *) layer Tag:(NSInteger) thetag PlatformListHandel: (NSMutableArray*) theplatforms LoseTarget: (id) losetarget LoseSelector: (SEL) loseselector ScoreBoard: (ScoreBoard*) thescoreboard ChopperNumber:(int) choppernumber;
 -(void) moveWithLocation: (CGPoint) location;
 -(void) run;
 -(void) landOnPlatform: (Platform *) p;

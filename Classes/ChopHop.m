@@ -14,6 +14,7 @@ enum {
 	kTagWater = 5,
 	kTagScoreBoard = 6,
 	kTagGameOver = 7,
+	kTagComputerChopper = 8,
 };
 //Platform tags go from 90 - 97
 
@@ -89,8 +90,15 @@ enum {
 	}
 	
 	scoreboard = [[ScoreBoard alloc] initWithTargetLayer:self Tag:kTagScoreBoard Mode:GAME_MODE_DUEL];
-	chopper = [[Chopper alloc] initWithTargetLayer:self Tag:kTagChopper PlatformListHandel:platformList LoseTarget:self LoseSelector:@selector(gameOverCallback) ScoreBoard:scoreboard];
+	chopper = [[Chopper alloc] initWithTargetLayer:self
+							   Tag:kTagChopper
+							   PlatformListHandel:platformList
+							   LoseTarget:self 
+							   LoseSelector:@selector(gameOverCallback) 
+							   ScoreBoard:scoreboard
+							   ChopperNumber:1];
 	
+	computerChopper = [[AIChopperController alloc] initWithTargetLayer:self Tag:kTagComputerChopper PlatformListHandel:platformList ScoreBoard:scoreboard];
 	gameOver = [CCSprite spriteWithFile:@"gameover.png"];
 	gameOver.position = ccp( size.width/2, size.height/2);
 	gameOver.visible = NO;
@@ -102,8 +110,7 @@ enum {
 	NSLog(@"GAME OVER CALLBACK COMPLETE");
 }
 
-- (void)ccTouchesEnded:(NSSet *)touches withEvent:(UIEvent *)event
-{
+- (BOOL)ccTouchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
 	UITouch *touch = [touches anyObject];
 	
 	if( touch ) {
@@ -113,7 +120,8 @@ enum {
 		// The touches are always in "portrait" coordinates. You need to convert them to your current orientation
 		CGPoint convertedPoint = [[CCDirector sharedDirector] convertToGL:location];
 		[chopper moveWithLocation:convertedPoint];
-	}	
+	}
+	return true;
 }
 
 
