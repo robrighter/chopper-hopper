@@ -19,10 +19,23 @@
 		self.sprite = [CCSprite spriteWithFile:@"platform.png"];
 		self.sprite.position = ccp( xpos, -120);
 		X = xpos;
+		goingUp = true;
 		[layer addChild:self.sprite z:10 tag:thetag];
 		[self run];
 	}
 	return self;
+}
+
+-(void) startingUp {
+	goingUp = true;
+}
+
+-(void) startingDown {
+	goingUp = false;
+}
+
+-(bool) isGoingUp {
+	return goingUp;
 }
 
 -(void) appear {
@@ -31,9 +44,10 @@
 	// and we run a new action
 	float duration = ((r+200) * 0.02);
 	id theaction = [CCSequence actions:
+				 [CCCallFunc actionWithTarget:self selector:@selector(startingUp)],
 				 [CCMoveTo actionWithDuration:duration position:ccp( X, r)],
+				 [CCCallFunc actionWithTarget:self selector:@selector(startingDown)],
 				 [CCMoveTo actionWithDuration:duration position:ccp( X, -120)],
-				 //[CCCallFunc actionWithTarget:self selector:@selector(chopperLand)],
 				 nil ];
 	
 	[self.sprite runAction: theaction];

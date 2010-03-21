@@ -14,11 +14,14 @@
 	NSInteger riseToPoint;
 	NSInteger X;
 	CCSprite *sprite;
+	bool goingUp;
 	
 }
 
 -(id) initWithXPosition: (float) xpos TargetLayer: (CCLayer *) layer Tag:(NSInteger) thetag;
 -(void) run;
+-(bool) isGoingUp;
+-(int) getRandomY;
 
 @property (retain) CCSprite *sprite;
 

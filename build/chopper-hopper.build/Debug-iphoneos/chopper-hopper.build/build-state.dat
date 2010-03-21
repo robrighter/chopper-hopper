@@ -1,7 +1,7 @@
 Tchopper-hopper
 v7
 r0
-t290747458.176939
+t290835263.045899
 cCheck dependencies
 cCpResource build/Debug-iphoneos/chopper-hopper.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/ResourceRules.plist
 cProcessInfoPlistFile /Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphoneos/chopper-hopper.app/Info.plist Resources/Info.plist
@@ -399,57 +399,61 @@ t1268747693
 s7315
 
 N/Users/rob/development/non-mgit/chopper-hopper/Classes/AIChopperController.h
-c000000004BA43CC100000000000001F1
-t1269054657
-s497
+c000000004BA58CDA000000000000021D
+t1269140698
+s541
+i"cocos2d.h"
+i"ScoreBoard.h"
+i"Chopper.h"
 
 N/Users/rob/development/non-mgit/chopper-hopper/Classes/AIChopperController.m
-c000000004BA43C8C0000000000000389
-t1269054604
-s905
+c000000004BA58F200000000000000A99
+t1269141280
+s2713
 i"AIChopperController.h"
 i"Chopper.h"
 
 N/Users/rob/development/non-mgit/chopper-hopper/Classes/ChopHop.h
-c000000004B9F149200000000000000E9
-t1268716690
-s233
+c000000004BA43E0F0000000000000130
+t1269054991
+s304
 i"cocos2d.h"
 i"Chopper.h"
 i"ScoreBoard.h"
+i"AIChopperController.h"
 
 N/Users/rob/development/non-mgit/chopper-hopper/Classes/ChopHop.m
-c000000004BA42E490000000000000F2D
-t1269050953
-s3885
+c000000004BA55EC9000000000000102E
+t1269128905
+s4142
 i"ChopHop.h"
 i"Platform.h"
 i"Chopper.h"
 
 N/Users/rob/development/non-mgit/chopper-hopper/Classes/Chopper.h
-c000000004BA436300000000000000371
-t1269052976
-s881
+c000000004BA58E500000000000000434
+t1269141072
+s1076
 i"cocos2d.h"
 i"Platform.h"
 i"ScoreBoard.h"
 
 N/Users/rob/development/non-mgit/chopper-hopper/Classes/Chopper.m
-c000000004BA4388A00000000000011A6
-t1269053578
-s4518
+c000000004BA5906A00000000000013C4
+t1269141610
+s5060
 i"Chopper.h"
 
 N/Users/rob/development/non-mgit/chopper-hopper/Classes/Platform.h
-c000000004B9EE30700000000000001B1
-t1268704007
-s433
+c000000004BA589F800000000000001E6
+t1269139960
+s486
 i"cocos2d.h"
 
 N/Users/rob/development/non-mgit/chopper-hopper/Classes/Platform.m
-c000000004B9C6A1900000000000006A5
-t1268541977
-s1701
+c000000004BA589D7000000000000077B
+t1269139927
+s1915
 i"Platform.h"
 
 N/Users/rob/development/non-mgit/chopper-hopper/Classes/ScoreBoard.h
@@ -459,9 +463,9 @@ s543
 i"cocos2d.h"
 
 N/Users/rob/development/non-mgit/chopper-hopper/Classes/ScoreBoard.m
-c000000004B9F1152000000000000058F
-t1268715858
-s1423
+c000000004BA592A700000000000005DD
+t1269142183
+s1501
 i"ScoreBoard.h"
 
 N/Users/rob/development/non-mgit/chopper-hopper/Classes/chopper_hopperAppDelegate.h
@@ -544,11 +548,11 @@ t1268406413
 s17793
 
 N/Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphoneos/chopper-hopper.app
-t1269054658
+t1269142463
 s748
 
 N/Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphoneos/chopper-hopper.app.dSYM
-t1269054657
+t1269142462
 s102
 
 N/Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphoneos/chopper-hopper.app/Default.png
@@ -576,8 +580,8 @@ t1268753748
 s91349
 
 N/Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphoneos/chopper-hopper.app/chopper-hopper
-t1269054657
-s1273456
+t1269142462
+s1278940
 
 N/Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphoneos/chopper-hopper.app/chopper.png
 t1268753745
@@ -629,24 +633,24 @@ t1269052065
 s3001056
 
 N/Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/Objects-normal/armv6/AIChopperController.o
-t1269054657
-s15964
+t1269142461
+s21624
 
 N/Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/Objects-normal/armv6/ChopHop.o
-t1269053143
-s32568
+t1269142461
+s33512
 
 N/Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/Objects-normal/armv6/Chopper.o
-t1269053578
-s29188
+t1269142461
+s30960
 
 N/Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/Objects-normal/armv6/Platform.o
-t1269052066
-s19996
+t1269142461
+s21840
 
 N/Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/Objects-normal/armv6/ScoreBoard.o
-t1269052066
-s18632
+t1269142461
+s18436
 
 N/Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/Objects-normal/armv6/chopper-hopper.LinkFileList
 c000000004BA43C8C00000000000003FA
@@ -654,8 +658,8 @@ t1269054604
 s1018
 
 N/Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/Objects-normal/armv6/chopper_hopperAppDelegate.o
-t1269053143
-s34036
+t1269142461
+s34300
 
 N/Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/Objects-normal/armv6/main.o
 t1269052066
@@ -1237,19 +1241,19 @@ s822
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies290747457#290747457#0(0"0(0#1#0"4300911832#0"0#
+lSLF07#2@18"Check dependencies290835260#290835260#0(0"0(0#1#0"4300911832#0"0#
 
 CCodeSign /Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphoneos/chopper-hopper.app
-s290747457.983927
-e290747458.176897
+s290835262.689804
+e290835263.045854
 r1
 xCodeSign
 x/Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphoneos/chopper-hopper.app
-lSLF07#2@48"CodeSign build/Debug-iphoneos/chopper-hopper.app290747457#290747458#0(0"0(0#0#86"/Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphoneos/chopper-hopper.app4300911832#733"    cd /Users/rob/development/non-mgit/chopper-hopper    setenv IGNORE_CODESIGN_ALLOCATE_RADAR_7181968 /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign -f -s "iPhone Developer: Rob Righter (N799Q526G4)" --resource-rules=/Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphoneos/chopper-hopper.app/ResourceRules.plist --entitlements /Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/chopper-hopper.xcent /Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphoneos/chopper-hopper.app0#
+lSLF07#2@48"CodeSign build/Debug-iphoneos/chopper-hopper.app290835262#290835263#0(0"0(0#0#86"/Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphoneos/chopper-hopper.app4300911832#733"    cd /Users/rob/development/non-mgit/chopper-hopper    setenv IGNORE_CODESIGN_ALLOCATE_RADAR_7181968 /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign -f -s "iPhone Developer: Rob Righter (N799Q526G4)" --resource-rules=/Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphoneos/chopper-hopper.app/ResourceRules.plist --entitlements /Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/chopper-hopper.xcent /Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphoneos/chopper-hopper.app0#
 
 CCompileC build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/Objects-normal/armv6/AIChopperController.o /Users/rob/development/non-mgit/chopper-hopper/Classes/AIChopperController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s290747457.605175
-e290747457.714269
+s290835261.646849
+e290835261.812643
 r1
 xCompileC
 xbuild/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/Objects-normal/armv6/AIChopperController.o
@@ -1258,13 +1262,15 @@ xnormal
 xarmv6
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-o/Users/rob/development/non-mgit/chopper-hopper/Classes/AIChopperController.m: In function '-[AIChopperController initWithTargetLayer:Tag:PlatformListHandel:ScoreBoard:]':
-o/Users/rob/development/non-mgit/chopper-hopper/Classes/AIChopperController.m:28: warning: incompatible Objective-C types 'struct Chopper *', expected 'struct CCNode *' when passing argument 1 of 'addChild:z:tag:' from distinct Objective-C type
-lSLF07#2@84"Compile /Users/rob/development/non-mgit/chopper-hopper/Classes/AIChopperController.m290747457#290747457#0(415"/Users/rob/development/non-mgit/chopper-hopper/Classes/AIChopperController.m: In function '-[AIChopperController initWithTargetLayer:Tag:PlatformListHandel:ScoreBoard:]':/Users/rob/development/non-mgit/chopper-hopper/Classes/AIChopperController.m:28: warning: incompatible Objective-C types 'struct Chopper *', expected 'struct CCNode *' when passing argument 1 of 'addChild:z:tag:' from distinct Objective-C type1(22@153"Incompatible Objective-C types 'struct Chopper *', expected 'struct CCNode *' when passing argument 1 of 'addChild:z:tag:' from distinct Objective-C type290747457#171#244#0(6@76"/Users/rob/development/non-mgit/chopper-hopper/Classes/AIChopperController.m290747404#28#0#28#0#0"0(0#0#76"/Users/rob/development/non-mgit/chopper-hopper/Classes/AIChopperController.m4300911832#2019"    cd /Users/rob/development/non-mgit/chopper-hopper    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DCOCOS2D_DEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=3.1 -iquote /Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/chopper-hopper-generated-files.hmap -I/Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/chopper-hopper-own-target-headers.hmap -I/Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/chopper-hopper-all-target-headers.hmap -iquote /Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/chopper-hopper-project-headers.hmap -Wall -F/Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphoneos -I/Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphoneos/include -I/Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/DerivedSources/armv6 -I/Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/DerivedSources -include /var/folders/1u/1uRmh48UGL0F0hu2+Zztu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/chopper_hopper_Prefix-fnjoueyaddtiusbzthzfmiczfubu/chopper_hopper_Prefix.pch -c /Users/rob/development/non-mgit/chopper-hopper/Classes/AIChopperController.m -o /Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/Objects-normal/armv6/AIChopperController.o0#
+o/Users/rob/development/non-mgit/chopper-hopper/Classes/AIChopperController.m: In function '-[AIChopperController gameOverCallback]':
+o/Users/rob/development/non-mgit/chopper-hopper/Classes/AIChopperController.m:40: warning: assignment makes pointer from integer without a cast
+o/Users/rob/development/non-mgit/chopper-hopper/Classes/AIChopperController.m: In function '-[AIChopperController playGame]':
+o/Users/rob/development/non-mgit/chopper-hopper/Classes/AIChopperController.m:66: warning: suggest parentheses around assignment used as truth value
+lSLF07#2@84"Compile /Users/rob/development/non-mgit/chopper-hopper/Classes/AIChopperController.m290835261#290835261#0(549"/Users/rob/development/non-mgit/chopper-hopper/Classes/AIChopperController.m: In function '-[AIChopperController gameOverCallback]':/Users/rob/development/non-mgit/chopper-hopper/Classes/AIChopperController.m:40: warning: assignment makes pointer from integer without a cast/Users/rob/development/non-mgit/chopper-hopper/Classes/AIChopperController.m: In function '-[AIChopperController playGame]':/Users/rob/development/non-mgit/chopper-hopper/Classes/AIChopperController.m:66: warning: suggest parentheses around assignment used as truth value2(22@52"Assignment makes pointer from integer without a cast290835261#133#143#0(6@76"/Users/rob/development/non-mgit/chopper-hopper/Classes/AIChopperController.m290834080#40#0#40#0#0"0(22@57"Suggest parentheses around assignment used as truth value290835261#401#148#0(6@76"/Users/rob/development/non-mgit/chopper-hopper/Classes/AIChopperController.m290834080#66#0#66#0#0"0(0#0#76"/Users/rob/development/non-mgit/chopper-hopper/Classes/AIChopperController.m4300911832#2019"    cd /Users/rob/development/non-mgit/chopper-hopper    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DCOCOS2D_DEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=3.1 -iquote /Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/chopper-hopper-generated-files.hmap -I/Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/chopper-hopper-own-target-headers.hmap -I/Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/chopper-hopper-all-target-headers.hmap -iquote /Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/chopper-hopper-project-headers.hmap -Wall -F/Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphoneos -I/Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphoneos/include -I/Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/DerivedSources/armv6 -I/Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/DerivedSources -include /var/folders/1u/1uRmh48UGL0F0hu2+Zztu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/chopper_hopper_Prefix-fnjoueyaddtiusbzthzfmiczfubu/chopper_hopper_Prefix.pch -c /Users/rob/development/non-mgit/chopper-hopper/Classes/AIChopperController.m -o /Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/Objects-normal/armv6/AIChopperController.o0#
 
 CCompileC build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/Objects-normal/armv6/ChopHop.o /Users/rob/development/non-mgit/chopper-hopper/Classes/ChopHop.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s290745943.597249
-e290745943.775779
+s290835260.744359
+e290835261.462533
 r1
 xCompileC
 xbuild/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/Objects-normal/armv6/ChopHop.o
@@ -1274,13 +1280,13 @@ xarmv6
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 o/Users/rob/development/non-mgit/chopper-hopper/Classes/ChopHop.m: In function '-[ChopHop ccTouchesBegan:withEvent:]':
-o/Users/rob/development/non-mgit/chopper-hopper/Classes/ChopHop.m:105: warning: conflicting types for '-(BOOL)ccTouchesBegan:(NSSet *)touches withEvent:(UIEvent *)event'
+o/Users/rob/development/non-mgit/chopper-hopper/Classes/ChopHop.m:113: warning: conflicting types for '-(BOOL)ccTouchesBegan:(NSSet *)touches withEvent:(UIEvent *)event'
 o/Users/rob/development/non-mgit/chopper-hopper/libs/cocos2d/CCTouchDelegateProtocol.h:52: warning: previous declaration of '-(void)ccTouchesBegan:(NSSet *)touches withEvent:(UIEvent *)event'
-lSLF07#2@72"Compile /Users/rob/development/non-mgit/chopper-hopper/Classes/ChopHop.m290745943#290745943#0(478"/Users/rob/development/non-mgit/chopper-hopper/Classes/ChopHop.m: In function '-[ChopHop ccTouchesBegan:withEvent:]':/Users/rob/development/non-mgit/chopper-hopper/Classes/ChopHop.m:105: warning: conflicting types for '-(BOOL)ccTouchesBegan:(NSSet *)touches withEvent:(UIEvent *)event'/Users/rob/development/non-mgit/chopper-hopper/libs/cocos2d/CCTouchDelegateProtocol.h:52: warning: previous declaration of '-(void)ccTouchesBegan:(NSSet *)touches withEvent:(UIEvent *)event'2(22@89"Conflicting types for '-(BOOL)ccTouchesBegan:(NSSet *)touches withEvent:(UIEvent *)event'290745943#118#169#0(6@64"/Users/rob/development/non-mgit/chopper-hopper/Classes/ChopHop.m290743753#105#0#105#0#25"conflicting types for '*'0(22@91"Previous declaration of '-(void)ccTouchesBegan:(NSSet *)touches withEvent:(UIEvent *)event'290745943#287#191#0(6@85"/Users/rob/development/non-mgit/chopper-hopper/libs/cocos2d/CCTouchDelegateProtocol.h289748957#52#0#52#0#0"0(0#0#64"/Users/rob/development/non-mgit/chopper-hopper/Classes/ChopHop.m4300911832#1995"    cd /Users/rob/development/non-mgit/chopper-hopper    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DCOCOS2D_DEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=3.1 -iquote /Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/chopper-hopper-generated-files.hmap -I/Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/chopper-hopper-own-target-headers.hmap -I/Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/chopper-hopper-all-target-headers.hmap -iquote /Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/chopper-hopper-project-headers.hmap -Wall -F/Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphoneos -I/Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphoneos/include -I/Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/DerivedSources/armv6 -I/Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/DerivedSources -include /var/folders/1u/1uRmh48UGL0F0hu2+Zztu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/chopper_hopper_Prefix-fnjoueyaddtiusbzthzfmiczfubu/chopper_hopper_Prefix.pch -c /Users/rob/development/non-mgit/chopper-hopper/Classes/ChopHop.m -o /Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/Objects-normal/armv6/ChopHop.o0#
+lSLF07#2@72"Compile /Users/rob/development/non-mgit/chopper-hopper/Classes/ChopHop.m290835260#290835261#0(478"/Users/rob/development/non-mgit/chopper-hopper/Classes/ChopHop.m: In function '-[ChopHop ccTouchesBegan:withEvent:]':/Users/rob/development/non-mgit/chopper-hopper/Classes/ChopHop.m:113: warning: conflicting types for '-(BOOL)ccTouchesBegan:(NSSet *)touches withEvent:(UIEvent *)event'/Users/rob/development/non-mgit/chopper-hopper/libs/cocos2d/CCTouchDelegateProtocol.h:52: warning: previous declaration of '-(void)ccTouchesBegan:(NSSet *)touches withEvent:(UIEvent *)event'2(22@89"Conflicting types for '-(BOOL)ccTouchesBegan:(NSSet *)touches withEvent:(UIEvent *)event'290835261#118#169#0(6@64"/Users/rob/development/non-mgit/chopper-hopper/Classes/ChopHop.m290821705#113#0#113#0#25"conflicting types for '*'0(22@91"Previous declaration of '-(void)ccTouchesBegan:(NSSet *)touches withEvent:(UIEvent *)event'290835261#287#191#0(6@85"/Users/rob/development/non-mgit/chopper-hopper/libs/cocos2d/CCTouchDelegateProtocol.h289748957#52#0#52#0#0"0(0#0#64"/Users/rob/development/non-mgit/chopper-hopper/Classes/ChopHop.m4300911832#1995"    cd /Users/rob/development/non-mgit/chopper-hopper    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DCOCOS2D_DEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=3.1 -iquote /Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/chopper-hopper-generated-files.hmap -I/Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/chopper-hopper-own-target-headers.hmap -I/Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/chopper-hopper-all-target-headers.hmap -iquote /Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/chopper-hopper-project-headers.hmap -Wall -F/Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphoneos -I/Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphoneos/include -I/Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/DerivedSources/armv6 -I/Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/DerivedSources -include /var/folders/1u/1uRmh48UGL0F0hu2+Zztu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/chopper_hopper_Prefix-fnjoueyaddtiusbzthzfmiczfubu/chopper_hopper_Prefix.pch -c /Users/rob/development/non-mgit/chopper-hopper/Classes/ChopHop.m -o /Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/Objects-normal/armv6/ChopHop.o0#
 
 CCompileC build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/Objects-normal/armv6/Chopper.o /Users/rob/development/non-mgit/chopper-hopper/Classes/Chopper.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s290746378.629510
-e290746378.764460
+s290835261.462641
+e290835261.646755
 r1
 xCompileC
 xbuild/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/Objects-normal/armv6/Chopper.o
@@ -1290,12 +1296,12 @@ xarmv6
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 o/Users/rob/development/non-mgit/chopper-hopper/Classes/Chopper.m: In function '-[Chopper chopperLand]':
-o/Users/rob/development/non-mgit/chopper-hopper/Classes/Chopper.m:79: warning: suggest parentheses around assignment used as truth value
-lSLF07#2@72"Compile /Users/rob/development/non-mgit/chopper-hopper/Classes/Chopper.m290746378#290746378#0(240"/Users/rob/development/non-mgit/chopper-hopper/Classes/Chopper.m: In function '-[Chopper chopperLand]':/Users/rob/development/non-mgit/chopper-hopper/Classes/Chopper.m:79: warning: suggest parentheses around assignment used as truth value1(22@57"Suggest parentheses around assignment used as truth value290746378#104#136#0(6@64"/Users/rob/development/non-mgit/chopper-hopper/Classes/Chopper.m290746378#79#0#79#0#0"0(0#0#64"/Users/rob/development/non-mgit/chopper-hopper/Classes/Chopper.m4300911832#1995"    cd /Users/rob/development/non-mgit/chopper-hopper    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DCOCOS2D_DEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=3.1 -iquote /Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/chopper-hopper-generated-files.hmap -I/Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/chopper-hopper-own-target-headers.hmap -I/Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/chopper-hopper-all-target-headers.hmap -iquote /Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/chopper-hopper-project-headers.hmap -Wall -F/Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphoneos -I/Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphoneos/include -I/Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/DerivedSources/armv6 -I/Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/DerivedSources -include /var/folders/1u/1uRmh48UGL0F0hu2+Zztu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/chopper_hopper_Prefix-fnjoueyaddtiusbzthzfmiczfubu/chopper_hopper_Prefix.pch -c /Users/rob/development/non-mgit/chopper-hopper/Classes/Chopper.m -o /Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/Objects-normal/armv6/Chopper.o0#
+o/Users/rob/development/non-mgit/chopper-hopper/Classes/Chopper.m:81: warning: suggest parentheses around assignment used as truth value
+lSLF07#2@72"Compile /Users/rob/development/non-mgit/chopper-hopper/Classes/Chopper.m290835261#290835261#0(240"/Users/rob/development/non-mgit/chopper-hopper/Classes/Chopper.m: In function '-[Chopper chopperLand]':/Users/rob/development/non-mgit/chopper-hopper/Classes/Chopper.m:81: warning: suggest parentheses around assignment used as truth value1(22@57"Suggest parentheses around assignment used as truth value290835261#104#136#0(6@64"/Users/rob/development/non-mgit/chopper-hopper/Classes/Chopper.m290834410#81#0#81#0#0"0(0#0#64"/Users/rob/development/non-mgit/chopper-hopper/Classes/Chopper.m4300911832#1995"    cd /Users/rob/development/non-mgit/chopper-hopper    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DCOCOS2D_DEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=3.1 -iquote /Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/chopper-hopper-generated-files.hmap -I/Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/chopper-hopper-own-target-headers.hmap -I/Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/chopper-hopper-all-target-headers.hmap -iquote /Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/chopper-hopper-project-headers.hmap -Wall -F/Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphoneos -I/Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphoneos/include -I/Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/DerivedSources/armv6 -I/Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/DerivedSources -include /var/folders/1u/1uRmh48UGL0F0hu2+Zztu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/chopper_hopper_Prefix-fnjoueyaddtiusbzthzfmiczfubu/chopper_hopper_Prefix.pch -c /Users/rob/development/non-mgit/chopper-hopper/Classes/Chopper.m -o /Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/Objects-normal/armv6/Chopper.o0#
 
 CCompileC build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/Objects-normal/armv6/Platform.o /Users/rob/development/non-mgit/chopper-hopper/Classes/Platform.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s290744866.470596
-e290744866.653777
+s290835261.388715
+e290835261.573202
 r1
 xCompileC
 xbuild/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/Objects-normal/armv6/Platform.o
@@ -1304,17 +1310,11 @@ xnormal
 xarmv6
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-o/Users/rob/development/non-mgit/chopper-hopper/Classes/Platform.m: In function '-[Platform appear]':
-o/Users/rob/development/non-mgit/chopper-hopper/Classes/Platform.m:30: warning: 'Platform' may not respond to '-getRandomY'
-o/Users/rob/development/non-mgit/chopper-hopper/Classes/Platform.m:30: warning: (Messages without a matching method signature
-o/Users/rob/development/non-mgit/chopper-hopper/Classes/Platform.m:30: warning: will be assumed to return 'id' and accept
-o/Users/rob/development/non-mgit/chopper-hopper/Classes/Platform.m:30: warning: '...' as arguments.)
-o/Users/rob/development/non-mgit/chopper-hopper/Classes/Platform.m:30: warning: initialization makes integer from pointer without a cast
-lSLF07#2@73"Compile /Users/rob/development/non-mgit/chopper-hopper/Classes/Platform.m290744866#290744866#0(706"/Users/rob/development/non-mgit/chopper-hopper/Classes/Platform.m: In function '-[Platform appear]':/Users/rob/development/non-mgit/chopper-hopper/Classes/Platform.m:30: warning: 'Platform' may not respond to '-getRandomY'/Users/rob/development/non-mgit/chopper-hopper/Classes/Platform.m:30: warning: (Messages without a matching method signature/Users/rob/development/non-mgit/chopper-hopper/Classes/Platform.m:30: warning: will be assumed to return 'id' and accept/Users/rob/development/non-mgit/chopper-hopper/Classes/Platform.m:30: warning: '...' as arguments.)/Users/rob/development/non-mgit/chopper-hopper/Classes/Platform.m:30: warning: initialization makes integer from pointer without a cast3(22@43"'Platform' may not respond to '-getRandomY'290744866#101#123#0(6@65"/Users/rob/development/non-mgit/chopper-hopper/Classes/Platform.m290234777#30#0#30#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)290744866#224#125#0(6@65"/Users/rob/development/non-mgit/chopper-hopper/Classes/Platform.m290234777#30#0#30#0#0"0(22@56"Initialization makes integer from pointer without a cast290744866#570#136#0(6@65"/Users/rob/development/non-mgit/chopper-hopper/Classes/Platform.m290234777#30#0#30#0#0"0(0#0#65"/Users/rob/development/non-mgit/chopper-hopper/Classes/Platform.m4300911832#1997"    cd /Users/rob/development/non-mgit/chopper-hopper    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DCOCOS2D_DEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=3.1 -iquote /Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/chopper-hopper-generated-files.hmap -I/Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/chopper-hopper-own-target-headers.hmap -I/Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/chopper-hopper-all-target-headers.hmap -iquote /Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/chopper-hopper-project-headers.hmap -Wall -F/Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphoneos -I/Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphoneos/include -I/Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/DerivedSources/armv6 -I/Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/DerivedSources -include /var/folders/1u/1uRmh48UGL0F0hu2+Zztu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/chopper_hopper_Prefix-fnjoueyaddtiusbzthzfmiczfubu/chopper_hopper_Prefix.pch -c /Users/rob/development/non-mgit/chopper-hopper/Classes/Platform.m -o /Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/Objects-normal/armv6/Platform.o0#
+lSLF07#2@73"Compile /Users/rob/development/non-mgit/chopper-hopper/Classes/Platform.m290835261#290835261#0(0"0(0#0#65"/Users/rob/development/non-mgit/chopper-hopper/Classes/Platform.m4300911832#1997"    cd /Users/rob/development/non-mgit/chopper-hopper    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DCOCOS2D_DEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=3.1 -iquote /Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/chopper-hopper-generated-files.hmap -I/Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/chopper-hopper-own-target-headers.hmap -I/Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/chopper-hopper-all-target-headers.hmap -iquote /Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/chopper-hopper-project-headers.hmap -Wall -F/Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphoneos -I/Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphoneos/include -I/Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/DerivedSources/armv6 -I/Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/DerivedSources -include /var/folders/1u/1uRmh48UGL0F0hu2+Zztu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/chopper_hopper_Prefix-fnjoueyaddtiusbzthzfmiczfubu/chopper_hopper_Prefix.pch -c /Users/rob/development/non-mgit/chopper-hopper/Classes/Platform.m -o /Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/Objects-normal/armv6/Platform.o0#
 
 CCompileC build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/Objects-normal/armv6/ScoreBoard.o /Users/rob/development/non-mgit/chopper-hopper/Classes/ScoreBoard.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s290744866.653877
-e290744866.750820
+s290835261.573393
+e290835261.704955
 r1
 xCompileC
 xbuild/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/Objects-normal/armv6/ScoreBoard.o
@@ -1323,11 +1323,11 @@ xnormal
 xarmv6
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@75"Compile /Users/rob/development/non-mgit/chopper-hopper/Classes/ScoreBoard.m290744866#290744866#0(0"0(0#0#67"/Users/rob/development/non-mgit/chopper-hopper/Classes/ScoreBoard.m4300911832#2001"    cd /Users/rob/development/non-mgit/chopper-hopper    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DCOCOS2D_DEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=3.1 -iquote /Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/chopper-hopper-generated-files.hmap -I/Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/chopper-hopper-own-target-headers.hmap -I/Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/chopper-hopper-all-target-headers.hmap -iquote /Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/chopper-hopper-project-headers.hmap -Wall -F/Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphoneos -I/Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphoneos/include -I/Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/DerivedSources/armv6 -I/Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/DerivedSources -include /var/folders/1u/1uRmh48UGL0F0hu2+Zztu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/chopper_hopper_Prefix-fnjoueyaddtiusbzthzfmiczfubu/chopper_hopper_Prefix.pch -c /Users/rob/development/non-mgit/chopper-hopper/Classes/ScoreBoard.m -o /Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/Objects-normal/armv6/ScoreBoard.o0#
+lSLF07#2@75"Compile /Users/rob/development/non-mgit/chopper-hopper/Classes/ScoreBoard.m290835261#290835261#0(0"0(0#0#67"/Users/rob/development/non-mgit/chopper-hopper/Classes/ScoreBoard.m4300911832#2001"    cd /Users/rob/development/non-mgit/chopper-hopper    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DCOCOS2D_DEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=3.1 -iquote /Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/chopper-hopper-generated-files.hmap -I/Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/chopper-hopper-own-target-headers.hmap -I/Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/chopper-hopper-all-target-headers.hmap -iquote /Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/chopper-hopper-project-headers.hmap -Wall -F/Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphoneos -I/Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphoneos/include -I/Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/DerivedSources/armv6 -I/Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/DerivedSources -include /var/folders/1u/1uRmh48UGL0F0hu2+Zztu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/chopper_hopper_Prefix-fnjoueyaddtiusbzthzfmiczfubu/chopper_hopper_Prefix.pch -c /Users/rob/development/non-mgit/chopper-hopper/Classes/ScoreBoard.m -o /Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/Objects-normal/armv6/ScoreBoard.o0#
 
 CCompileC build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/Objects-normal/armv6/chopper_hopperAppDelegate.o /Users/rob/development/non-mgit/chopper-hopper/Classes/chopper_hopperAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s290745943.596222
-e290745943.762706
+s290835260.742365
+e290835261.388592
 r1
 xCompileC
 xbuild/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/Objects-normal/armv6/chopper_hopperAppDelegate.o
@@ -1336,7 +1336,7 @@ xnormal
 xarmv6
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@90"Compile /Users/rob/development/non-mgit/chopper-hopper/Classes/chopper_hopperAppDelegate.m290745943#290745943#0(0"0(0#0#82"/Users/rob/development/non-mgit/chopper-hopper/Classes/chopper_hopperAppDelegate.m4300911832#2031"    cd /Users/rob/development/non-mgit/chopper-hopper    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DCOCOS2D_DEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=3.1 -iquote /Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/chopper-hopper-generated-files.hmap -I/Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/chopper-hopper-own-target-headers.hmap -I/Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/chopper-hopper-all-target-headers.hmap -iquote /Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/chopper-hopper-project-headers.hmap -Wall -F/Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphoneos -I/Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphoneos/include -I/Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/DerivedSources/armv6 -I/Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/DerivedSources -include /var/folders/1u/1uRmh48UGL0F0hu2+Zztu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/chopper_hopper_Prefix-fnjoueyaddtiusbzthzfmiczfubu/chopper_hopper_Prefix.pch -c /Users/rob/development/non-mgit/chopper-hopper/Classes/chopper_hopperAppDelegate.m -o /Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/Objects-normal/armv6/chopper_hopperAppDelegate.o0#
+lSLF07#2@90"Compile /Users/rob/development/non-mgit/chopper-hopper/Classes/chopper_hopperAppDelegate.m290835260#290835261#0(0"0(0#0#82"/Users/rob/development/non-mgit/chopper-hopper/Classes/chopper_hopperAppDelegate.m4300911832#2031"    cd /Users/rob/development/non-mgit/chopper-hopper    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DCOCOS2D_DEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=3.1 -iquote /Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/chopper-hopper-generated-files.hmap -I/Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/chopper-hopper-own-target-headers.hmap -I/Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/chopper-hopper-all-target-headers.hmap -iquote /Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/chopper-hopper-project-headers.hmap -Wall -F/Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphoneos -I/Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphoneos/include -I/Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/DerivedSources/armv6 -I/Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/DerivedSources -include /var/folders/1u/1uRmh48UGL0F0hu2+Zztu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/chopper_hopper_Prefix-fnjoueyaddtiusbzthzfmiczfubu/chopper_hopper_Prefix.pch -c /Users/rob/development/non-mgit/chopper-hopper/Classes/chopper_hopperAppDelegate.m -o /Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/Objects-normal/armv6/chopper_hopperAppDelegate.o0#
 
 CCompileC build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/Objects-normal/armv6/main.o /Users/rob/development/non-mgit/chopper-hopper/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 s290744866.326690
@@ -1496,23 +1496,23 @@ x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceR
 lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist290440896#290440896#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist4300911832#503"    cd /Users/rob/development/non-mgit/chopper-hopper    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist /Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphoneos/chopper-hopper.app0#
 
 CGenerateDSYMFile /Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphoneos/chopper-hopper.app.dSYM /Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphoneos/chopper-hopper.app/chopper-hopper
-s290747457.894377
-e290747457.980790
+s290835262.573193
+e290835262.685860
 r1
 xGenerateDSYMFile
 x/Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphoneos/chopper-hopper.app.dSYM
 x/Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphoneos/chopper-hopper.app/chopper-hopper
-lSLF07#2@116"GenerateDSYMFile build/Debug-iphoneos/chopper-hopper.app.dSYM build/Debug-iphoneos/chopper-hopper.app/chopper-hopper290747457#290747457#0(0"0(0#0#101"/Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphoneos/chopper-hopper.app/chopper-hopper4300911832#407"    cd /Users/rob/development/non-mgit/chopper-hopper    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphoneos/chopper-hopper.app/chopper-hopper -o /Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphoneos/chopper-hopper.app.dSYM0#
+lSLF07#2@116"GenerateDSYMFile build/Debug-iphoneos/chopper-hopper.app.dSYM build/Debug-iphoneos/chopper-hopper.app/chopper-hopper290835262#290835262#0(0"0(0#0#101"/Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphoneos/chopper-hopper.app/chopper-hopper4300911832#407"    cd /Users/rob/development/non-mgit/chopper-hopper    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphoneos/chopper-hopper.app/chopper-hopper -o /Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphoneos/chopper-hopper.app.dSYM0#
 
 CLd /Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphoneos/chopper-hopper.app/chopper-hopper normal armv6
-s290747457.714373
-e290747457.894264
+s290835261.812896
+e290835262.573060
 r1
 xLd
 x/Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphoneos/chopper-hopper.app/chopper-hopper
 xnormal
 xarmv6
-lSLF07#2@106"Link /Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphoneos/chopper-hopper.app/chopper-hopper290747457#290747457#0(0"0(0#0#0"4300911832#1049"    cd /Users/rob/development/non-mgit/chopper-hopper    setenv IPHONEOS_DEPLOYMENT_TARGET 3.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -L/Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphoneos -F/Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphoneos -filelist /Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/Objects-normal/armv6/chopper-hopper.LinkFileList -dead_strip -all_load -ObjC -miphoneos-version-min=3.1 -framework CoreGraphics -framework Foundation -framework OpenGLES -framework QuartzCore -framework UIKit -framework AudioToolbox -framework OpenAL -lz -framework AVFoundation "-lcocos2d libraries" -o /Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphoneos/chopper-hopper.app/chopper-hopper0#
+lSLF07#2@106"Link /Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphoneos/chopper-hopper.app/chopper-hopper290835261#290835262#0(0"0(0#0#0"4300911832#1049"    cd /Users/rob/development/non-mgit/chopper-hopper    setenv IPHONEOS_DEPLOYMENT_TARGET 3.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -L/Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphoneos -F/Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphoneos -filelist /Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/Objects-normal/armv6/chopper-hopper.LinkFileList -dead_strip -all_load -ObjC -miphoneos-version-min=3.1 -framework CoreGraphics -framework Foundation -framework OpenGLES -framework QuartzCore -framework UIKit -framework AudioToolbox -framework OpenAL -lz -framework AVFoundation "-lcocos2d libraries" -o /Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphoneos/chopper-hopper.app/chopper-hopper0#
 
 CProcessInfoPlistFile /Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphoneos/chopper-hopper.app/Info.plist Resources/Info.plist
 s290744865.752907
@@ -1615,10 +1615,10 @@ x/Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug
 lSLF07#2@196"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/Entitlements.plist build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/chopper-hopper.xcent290440897#290440897#0(0"0(0#0#130"/Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/chopper-hopper.xcent4300911832#469"    cd /Users/rob/development/non-mgit/chopper-hopper    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/Entitlements.plist -entitlements -format xml -o /Users/rob/development/non-mgit/chopper-hopper/build/chopper-hopper.build/Debug-iphoneos/chopper-hopper.build/chopper-hopper.xcent0#
 
 CTouch /Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphoneos/chopper-hopper.app
-s290747457.980986
-e290747457.983758
+s290835262.686061
+e290835262.689619
 r1
 xTouch
 x/Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphoneos/chopper-hopper.app
-lSLF07#2@92"Touch /Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphoneos/chopper-hopper.app290747457#290747457#0(0"0(0#0#0"4300911832#287"    cd /Users/rob/development/non-mgit/chopper-hopper    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphoneos/chopper-hopper.app0#
+lSLF07#2@92"Touch /Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphoneos/chopper-hopper.app290835262#290835262#0(0"0(0#0#0"4300911832#287"    cd /Users/rob/development/non-mgit/chopper-hopper    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/rob/development/non-mgit/chopper-hopper/build/Debug-iphoneos/chopper-hopper.app0#
 

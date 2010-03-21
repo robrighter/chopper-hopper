@@ -8,9 +8,7 @@
 
 #import "Chopper.h"
 
-#define PLATFORM_X_OFFSET 4.0f
-#define PLATFORM_Y_OFFSET 157.0f
-#define WATERLEVEL 48.0f
+
 
 @implementation Chopper
 
@@ -39,7 +37,9 @@
 	//if your landed set the scorecard to the time spent on the platform
 	if(scoreTime != nil){
 		// do stuff...
-		[scoreBoard incrementGameScore:abs((int)[scoreTime timeIntervalSinceNow])];
+		if (chopperNumber == 1) {
+			[scoreBoard incrementGameScore:abs((int)[scoreTime timeIntervalSinceNow])];
+		}
 		scoreTime = nil;
 	}
 	
@@ -73,12 +73,19 @@
 	[sprite runAction:[CCRotateTo actionWithDuration:duration angle:0.0f]];
 }
 
+
 -(void) chopperLand {
 	NSEnumerator * enumerator = [platformList objectEnumerator];
 	Platform *platform;
 	NSLog(@"################################################");
 	while(platform = ((Platform *)[enumerator nextObject]))
     {
+		//OPTIMIZATION => If we get past the chopper on the x axis (plus some padding), then we can just return
+		if ( (platform.sprite.position.x ) > (sprite.position.x + 25.0f)  ) {
+			return;
+		}
+		////////////////////////////////////////////////////////////////
+		
 		NSLog(@"Chopper is (%f,%f) | Platform is (%f,%f)", sprite.position.x,sprite.position.y,platform.sprite.position.x+4.0f, (platform.sprite.position.y+157.0f));
 		if ((platform != toIgnore) && [self isInRangeToLandOnPlatform:platform.sprite.position]) {
 			NSLog(@"WITHIN RANGE OF PLATFORM...");
@@ -119,7 +126,18 @@
 }
 
 -(void) landOnPlatform: (Platform *) p {
+	// we stop the all running actions
+	sprite.rotation = 0;
+	[sprite stopAllActions];
 	landedOn = p;
+}
+
+-(bool) isLanded {
+	return ([landedOn sprite] != nil);
+}
+
+-(Platform*) getLandedOnPlatform {
+	return landedOn;
 }
 
 -(void) trackIfLanded {
@@ -140,15 +158,14 @@
 		else if(chopperNumber == 2) {
 			[scoreBoard setRightFuel:fuel];
 		}
-		NSLog(@"Current Fuel Level: %f", fuel);
+		//NSLog(@"Current Fuel Level: %f", fuel);
 		[self chopperLand];
-		[NSThread sleepForTimeInterval:0.02];
+		[NSThread sleepForTimeInterval:0.09];
 	}
 	else {
 		//TRACK IT
 		sprite.position = CGPointMake(totrack.position.x+PLATFORM_X_OFFSET, (totrack.position.y+PLATFORM_Y_OFFSET));
 	}
-	//[scoreBoard incrementGameScore:1];
 	[NSThread sleepForTimeInterval:0.01];
 	[NSThread detachNewThreadSelector:@selector(trackIfLanded) toTarget:self withObject:nil];
 	[autopool drain];

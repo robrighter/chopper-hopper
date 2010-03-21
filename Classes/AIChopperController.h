@@ -13,9 +13,11 @@
 	Chopper *chopper;
 	NSMutableArray *platformList;
 	ScoreBoard *scoreBoard;
+	bool *isGameOver;
+	bool pause;
 }
 
 -(id) initWithTargetLayer: (CCLayer *) layer Tag:(NSInteger) thetag PlatformListHandel: (NSMutableArray*) theplatforms ScoreBoard: (ScoreBoard*) thescoreboard;
-
+-(void) run;
 
 @end

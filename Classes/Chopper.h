@@ -9,6 +9,9 @@
 #import "Platform.h"
 #import "ScoreBoard.h"
 
+#define PLATFORM_X_OFFSET 4.0f
+#define PLATFORM_Y_OFFSET 157.0f
+#define WATERLEVEL 48.0f
 
 @interface Chopper : NSObject {
 	CCSprite *sprite;
@@ -32,5 +35,7 @@
 -(void) trackIfLanded;
 -(bool) isInRangeToLandOnPlatform: (CGPoint) platformlocation;
 -(bool) isGameOver;
+-(bool) isLanded;
+-(Platform*) getLandedOnPlatform;
 
 @end
