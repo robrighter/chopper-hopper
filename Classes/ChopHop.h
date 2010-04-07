@@ -11,6 +11,7 @@
 	NSMutableArray* platformList;
 	CCSprite* gameOver;
 	AIChopperController *computerChopper;
+	
 }
 
 +(id) scene;

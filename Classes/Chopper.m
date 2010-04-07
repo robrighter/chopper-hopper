@@ -22,6 +22,10 @@
 		sprite = [CCSprite spriteWithFile:@"chopper.png"];
 		sprite.position = ccp( 200, 200);
 		[layer addChild:sprite z:800 tag:thetag];
+		
+		trackLine = [[TrackLine alloc] init];
+		[layer addChild:trackLine z:990 tag:thetag];
+		
 		landedOn = nil;
 		loseCallbackSelector = loseselector;
 		loseCallbackTarget = losetarget;
@@ -34,6 +38,9 @@
 
 
 -(void) moveWithLocation: (CGPoint) location {
+	
+	[trackLine updateStartingPoint:sprite.position];
+	[trackLine updateStoppingPoint:location];
 	//if your landed set the scorecard to the time spent on the platform
 	if(scoreTime != nil){
 		// do stuff...
@@ -75,6 +82,7 @@
 
 
 -(void) chopperLand {
+	
 	NSEnumerator * enumerator = [platformList objectEnumerator];
 	Platform *platform;
 	NSLog(@"################################################");
@@ -140,7 +148,21 @@
 	return landedOn;
 }
 
+-(void) updateTrackLineStartingPoint: (CGPoint) location{
+	[trackLine updateStartingPoint:location];
+}
+
+-(void) hideTrackLine {
+	trackLine.visible = false;
+}
+
+
+-(void) showTrackLine {
+	trackLine.visible = true;
+}
+
 -(void) trackIfLanded {
+	
 	NSAutoreleasePool *autopool = [[NSAutoreleasePool alloc] init];
 	if ([self isGameOver]) {
 		NSLog(@"Game over. Calling the Lose Selector");
@@ -148,10 +170,12 @@
 		[autopool drain];
 		return;
 	}
+	
+	
 
 	CCSprite *totrack = [landedOn sprite];
 	if (totrack == nil) {
-		fuel = fuel - 0.1f;
+		fuel = fuel - 0.5f;
 		if (chopperNumber == 1) {
 			[scoreBoard setLeftFuel:fuel];
 		}
@@ -165,7 +189,9 @@
 	else {
 		//TRACK IT
 		sprite.position = CGPointMake(totrack.position.x+PLATFORM_X_OFFSET, (totrack.position.y+PLATFORM_Y_OFFSET));
+		[trackLine updateStoppingPoint:sprite.position];
 	}
+	
 	[NSThread sleepForTimeInterval:0.01];
 	[NSThread detachNewThreadSelector:@selector(trackIfLanded) toTarget:self withObject:nil];
 	[autopool drain];

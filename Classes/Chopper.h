@@ -8,6 +8,7 @@
 #import "cocos2d.h"
 #import "Platform.h"
 #import "ScoreBoard.h"
+#import "TrackLine.h"
 
 #define PLATFORM_X_OFFSET 4.0f
 #define PLATFORM_Y_OFFSET 157.0f
@@ -25,6 +26,7 @@
 	ScoreBoard *scoreBoard;
 	NSDate *scoreTime;
 	int chopperNumber;
+	TrackLine *trackLine;
 	
 }
 
@@ -37,5 +39,8 @@
 -(bool) isGameOver;
 -(bool) isLanded;
 -(Platform*) getLandedOnPlatform;
+-(void) updateTrackLineStartingPoint: (CGPoint) location;
+-(void) showTrackLine;
+-(void) hideTrackLine;
 
 @end

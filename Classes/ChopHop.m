@@ -15,6 +15,7 @@ enum {
 	kTagScoreBoard = 6,
 	kTagGameOver = 7,
 	kTagComputerChopper = 8,
+	
 };
 //Platform tags go from 90 - 97
 
@@ -67,6 +68,9 @@ enum {
 		label.position =  ccp( size.width /2 , 20 );
 		[self addChild: label];
 		
+		
+		
+		
 	}
 	return self;
 }
@@ -85,8 +89,8 @@ enum {
 	[self addChild:background z:5 tag:kTagBackground];
 	
 	platformList = [[NSMutableArray alloc] init];
-	for (int i=0; i<7; i++) {
-		[platformList addObject:[[Platform alloc] initWithXPosition: ((70*i)+30) TargetLayer:self Tag:(90+i) ]];
+	for (int i=0; i<5; i++) {
+		[platformList addObject:[[Platform alloc] initWithXPosition: ((90*i)+50) TargetLayer:self Tag:(90+i) ]];
 	}
 	
 	scoreboard = [[ScoreBoard alloc] initWithTargetLayer:self Tag:kTagScoreBoard Mode:GAME_MODE_DUEL];
@@ -97,6 +101,8 @@ enum {
 							   LoseSelector:@selector(gameOverCallback) 
 							   ScoreBoard:scoreboard
 							   ChopperNumber:1];
+	
+	
 	
 	computerChopper = [[AIChopperController alloc] initWithTargetLayer:self Tag:kTagComputerChopper PlatformListHandel:platformList ScoreBoard:scoreboard];
 	gameOver = [CCSprite spriteWithFile:@"gameover.png"];
@@ -110,7 +116,41 @@ enum {
 	NSLog(@"GAME OVER CALLBACK COMPLETE");
 }
 
-- (BOOL)ccTouchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
+- (void)ccTouchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
+	[chopper showTrackLine];
+	
+	UITouch *touch = [touches anyObject];
+	 
+	if( touch ) {
+		 CGPoint location = [touch locationInView: [touch view]];
+		 
+		 // IMPORTANT:
+		 // The touches are always in "portrait" coordinates. You need to convert them to your current orientation
+		 CGPoint convertedPoint = [[CCDirector sharedDirector] convertToGL:location];
+		[chopper updateTrackLineStartingPoint:convertedPoint];
+		 
+	 }
+	 //return false; 
+}
+
+- (void)ccTouchesMoved:(NSSet *)touches withEvent:(UIEvent *)event {
+	UITouch *touch = [touches anyObject];
+	
+	if( touch ) {
+		CGPoint location = [touch locationInView: [touch view]];
+		
+		// IMPORTANT:
+		// The touches are always in "portrait" coordinates. You need to convert them to your current orientation
+		CGPoint convertedPoint = [[CCDirector sharedDirector] convertToGL:location];
+		[chopper updateTrackLineStartingPoint:convertedPoint];
+		
+	}
+	//return false; 
+}
+
+
+- (void)ccTouchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {
+	[chopper hideTrackLine];
 	UITouch *touch = [touches anyObject];
 	
 	if( touch ) {
@@ -121,7 +161,7 @@ enum {
 		CGPoint convertedPoint = [[CCDirector sharedDirector] convertToGL:location];
 		[chopper moveWithLocation:convertedPoint];
 	}
-	return true;
+	//return true;	
 }
 
 

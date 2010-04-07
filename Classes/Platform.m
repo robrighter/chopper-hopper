@@ -42,7 +42,7 @@
 	NSAutoreleasePool *autopool = [[NSAutoreleasePool alloc] init];
 	int r = [self getRandomY];
 	// and we run a new action
-	float duration = ((r+200) * 0.02);
+	float duration = ((r+200) * 0.017);
 	id theaction = [CCSequence actions:
 				 [CCCallFunc actionWithTarget:self selector:@selector(startingUp)],
 				 [CCMoveTo actionWithDuration:duration position:ccp( X, r)],
